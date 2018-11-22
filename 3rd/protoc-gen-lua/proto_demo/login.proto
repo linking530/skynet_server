@@ -1,0 +1,37 @@
+package login; 
+message login_result
+{
+	required int32 id = 1;   		//结果id
+}
+message login_create
+{
+	required int32 userid = 1;	//角色名id
+	required string name = 2;	//角色名长度
+}
+message login_users
+{
+	message login_user
+	{
+		required int32 userid = 1;	//角色名id
+		required string name = 2;	//角色名长度
+	}
+	repeated login_user users = 1;	//角色列表
+}
+message login_message
+{
+	required int32 fromuserid = 1;	//角色名id
+	required int32 touserid = 2;	//角色名id
+	required string msg = 3;	    //角色名长度
+}
+message login_enter
+{
+	required string account = 1;	//账号
+	required string password = 2;	//密码
+}
+message login_server
+{
+	required string ip = 1;	    //IP地址
+	required int32 port = 2;    //端口号
+	required string account = 3;
+	required string password = 4;
+}

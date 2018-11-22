@@ -1,0 +1,3 @@
+1.在 path.xml 中修改 游戏表路径 和 生成的txt文件路径，可配置多组路径。
+2.所配置的游戏表路径下都需要包含 xls2txt.xml 中所配置的游戏表，不然会报错。
+3.执行TransformTool.exe即可将 path.xml 配置表中指定的EXCEL表转换成txt文件，并且生成到对应的路径中。

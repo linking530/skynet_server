@@ -1,0 +1,170 @@
+﻿生成启动时间为 2018/4/18 15:01:47。
+     1>项目“E:\skynet-vs2013\build\vs2013\lualib\skynet.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\3rd\lua /I"..\..\..\skynet-src" /I..\posix /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D LUA_BUILD_AS_DLL /D NOUSE_JEMALLOC /D _DEBUG /D _WINDOWS /D _USRDLL /D LUA53_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\output\skynet\Debug\\" /Fd"..\output\skynet\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\lualib-src\lsha1.c" "..\..\..\lualib-src\lsignal\lsignal.c" "..\..\..\lualib-src\ltask\handlemap.c" "..\..\..\lualib-src\ltask\ltask.c" "..\..\..\lualib-src\ltask\queue.c" "..\..\..\lualib-src\ltask\schedule.c" "..\..\..\lualib-src\ltask\serialize.c" "..\..\..\lualib-src\lua-cluster.c" "..\..\..\lualib-src\lua-crypt.c" "..\..\..\lualib-src\lua-datasheet.c" "..\..\..\lualib-src\lua-debugchannel.c" "..\..\..\lualib-src\lua-marshal.c" "..\..\..\lualib-src\lua-memory.c" "..\..\..\lualib-src\lua-mongo.c" "..\..\..\lualib-src\lua-msgpack.c" "..\..\..\lualib-src\lua-multicast.c" "..\..\..\lualib-src\lua-mysqlaux.c" "..\..\..\lualib-src\lua-netpack.c" "..\..\..\lualib-src\lua-profile.c" "..\..\..\lualib-src\lua-seri.c" "..\..\..\lualib-src\lua-sharedata.c" "..\..\..\lualib-src\lua-skynet.c" "..\..\..\lualib-src\lua-socket.c" "..\..\..\lualib-src\lua-stm.c" "..\..\..\lualib-src\zset\lua-skiplist.c" "..\..\..\lualib-src\zset\skiplist.c"
+         skiplist.c
+         lua-skiplist.c
+     1>e:\skynet-vs2013\lualib-src\zset\lua-skiplist.c(58): warning C4244: “初始化”: 从“lua_Unsigned”转换到“unsigned int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\zset\lua-skiplist.c(59): warning C4244: “初始化”: 从“lua_Unsigned”转换到“unsigned int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\zset\lua-skiplist.c(99): warning C4244: “初始化”: 从“lua_Unsigned”转换到“unsigned long”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\zset\lua-skiplist.c(100): warning C4244: “初始化”: 从“lua_Unsigned”转换到“unsigned long”，可能丢失数据
+         lua-stm.c
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(23): warning C4013: “__sync_synchronize”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(25): warning C4013: “__sync_add_and_fetch”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(27): warning C4013: “__sync_sub_and_fetch”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(36): warning C4013: “__sync_lock_test_and_set”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(44): warning C4013: “__sync_lock_release”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\lualib-src\lua-stm.c(90): warning C4013: “__sync_fetch_and_add”未定义；假设外部返回 int
+         lua-socket.c
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(110): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(240): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(382): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(436): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(465): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(473): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(482): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(483): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(539): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(561): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(572): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(583): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(592): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(600): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(633): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(658): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-socket.c(687): warning C4090: “函数”: 不同的“const”限定符
+         lua-skynet.c
+     1>e:\skynet-vs2013\lualib-src\lua-skynet.c(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\skynet-vs2013\lualib-src\lua-skynet.c(189): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-skynet.c(194): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-skynet.c(214): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-skynet.c(295): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-skynet.c(316): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+         lua-sharedata.c
+     1>e:\skynet-vs2013\lualib-src\lua-sharedata.c(116): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-sharedata.c(196): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-sharedata.c(393): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-sharedata.c(667): warning C4013: “__sync_sub_and_fetch”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\lualib-src\lua-sharedata.c(678): warning C4013: “__sync_add_and_fetch”未定义；假设外部返回 int
+         lua-seri.c
+     1>e:\skynet-vs2013\lualib-src\lua-seri.c(449): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-seri.c(570): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+         lua-profile.c
+         lua-netpack.c
+     1>e:\skynet-vs2013\lualib-src\lua-netpack.c(342): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-netpack.c(459): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+         lua-mysqlaux.c
+         lua-multicast.c
+     1>e:\skynet-vs2013\lualib-src\lua-multicast.c(20): warning C4013: “malloc”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\lualib-src\lua-multicast.c(20): warning C4047: “初始化”:“mc_package *”与“int”的间接级别不同
+     1>e:\skynet-vs2013\lualib-src\lua-multicast.c(24): warning C4047: “初始化”:“mc_package **”与“int”的间接级别不同
+     1>e:\skynet-vs2013\lualib-src\lua-multicast.c(60): warning C4047: “初始化”:“void *”与“int”的间接级别不同
+     1>e:\skynet-vs2013\lualib-src\lua-multicast.c(74): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-multicast.c(93): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-multicast.c(101): warning C4013: “free”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\lualib-src\lua-multicast.c(113): warning C4013: “__sync_sub_and_fetch”未定义；假设外部返回 int
+         lua-msgpack.c
+     1>e:\skynet-vs2013\lualib-src\lua-msgpack.c(350): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-msgpack.c(474): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+         lua-mongo.c
+     1>e:\skynet-vs2013\lualib-src\lua-mongo.c(153): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-mongo.c(159): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-mongo.c(162): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-mongo.c(163): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-mongo.c(351): warning C4244: “函数”: 从“lua_Integer”转换到“int32_t”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-mongo.c(376): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-mongo.c(379): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-mongo.c(431): warning C4244: “函数”: 从“lua_Integer”转换到“int32_t”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-mongo.c(496): warning C4244: “函数”: 从“lua_Integer”转换到“int32_t”，可能丢失数据
+         lua-memory.c
+     1>e:\skynet-vs2013\lualib-src\lua-memory.c(41): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+         lua-marshal.c
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(151): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(209): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(263): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(334): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(338): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(342): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(351): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(386): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(408): warning C4018: “<=”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(419): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-marshal.c(454): warning C4018: “<”: 有符号/无符号不匹配
+         lua-debugchannel.c
+     1>e:\skynet-vs2013\skynet-src\spinlock.h(24): warning C4013: “__sync_lock_test_and_set”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\spinlock.h(34): warning C4013: “__sync_lock_release”未定义；假设外部返回 int
+         lua-datasheet.c
+     1>e:\skynet-vs2013\lualib-src\lua-datasheet.c(238): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-datasheet.c(247): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-datasheet.c(251): warning C4018: “<”: 有符号/无符号不匹配
+         lua-crypt.c
+     1>e:\skynet-vs2013\lualib-src\lua-crypt.c(422): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-crypt.c(426): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-crypt.c(487): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-crypt.c(510): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-crypt.c(883): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-crypt.c(887): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-crypt.c(946): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-crypt.c(965): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         lua-cluster.c
+     1>e:\skynet-vs2013\lualib-src\lua-cluster.c(107): warning C4013: “free”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\lualib-src\lua-cluster.c(168): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-cluster.c(277): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-cluster.c(299): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-cluster.c(483): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-cluster.c(485): warning C4013: “malloc”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\lualib-src\lua-cluster.c(485): warning C4047: “初始化”:“char *”与“int”的间接级别不同
+     1>e:\skynet-vs2013\lualib-src\lua-cluster.c(491): warning C4018: “>”: 有符号/无符号不匹配
+         serialize.c
+     1>e:\skynet-vs2013\lualib-src\ltask\serialize.c(535): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         schedule.c
+         queue.c
+         ltask.c
+     1>e:\skynet-vs2013\lualib-src\ltask\ltask.c(17): warning C4244: “函数”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\ltask\ltask.c(192): warning C4244: “初始化”: 从“lua_Integer”转换到“channelid”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\ltask\ltask.c(207): warning C4244: “初始化”: 从“lua_Integer”转换到“taskid”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\ltask\ltask.c(217): warning C4244: “=”: 从“lua_Integer”转换到“channelid”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\ltask\ltask.c(235): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\ltask\ltask.c(259): warning C4244: “初始化”: 从“lua_Integer”转换到“channelid”，可能丢失数据
+         handlemap.c
+         lsignal.c
+         lsha1.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\skynet.so" /INCREMENTAL /NOLOGO /LIBPATH:"E:\skynet-vs2013\build\vs2013\\" /LIBPATH:"E:\skynet-vs2013\build\vs2013\..\..\\" skynet.lib ws2_32.lib posix.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"E:\skynet-vs2013\build\vs2013\lualib\skynet.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\skynet.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\skynet.lib" /MACHINE:X86 /DLL ..\output\skynet\Debug\lsha1.obj
+         ..\output\skynet\Debug\lsignal.obj
+         ..\output\skynet\Debug\handlemap.obj
+         ..\output\skynet\Debug\ltask.obj
+         ..\output\skynet\Debug\queue.obj
+         ..\output\skynet\Debug\schedule.obj
+         ..\output\skynet\Debug\serialize.obj
+         "..\output\skynet\Debug\lua-cluster.obj"
+         "..\output\skynet\Debug\lua-crypt.obj"
+         "..\output\skynet\Debug\lua-datasheet.obj"
+         "..\output\skynet\Debug\lua-debugchannel.obj"
+         "..\output\skynet\Debug\lua-marshal.obj"
+         "..\output\skynet\Debug\lua-memory.obj"
+         "..\output\skynet\Debug\lua-mongo.obj"
+         "..\output\skynet\Debug\lua-msgpack.obj"
+         "..\output\skynet\Debug\lua-multicast.obj"
+         "..\output\skynet\Debug\lua-mysqlaux.obj"
+         "..\output\skynet\Debug\lua-netpack.obj"
+         "..\output\skynet\Debug\lua-profile.obj"
+         "..\output\skynet\Debug\lua-seri.obj"
+         "..\output\skynet\Debug\lua-sharedata.obj"
+         "..\output\skynet\Debug\lua-skynet.obj"
+         "..\output\skynet\Debug\lua-socket.obj"
+         "..\output\skynet\Debug\lua-stm.obj"
+         "..\output\skynet\Debug\lua-skiplist.obj"
+         ..\output\skynet\Debug\skiplist.obj
+         "E:\skynet-vs2013\lua53.lib"
+            正在创建库 E:\skynet-vs2013\build\vs2013\..\..\luaclib\skynet.lib 和对象 E:\skynet-vs2013\build\vs2013\..\..\luaclib\skynet.exp
+         skynet.vcxproj -> E:\skynet-vs2013\build\vs2013\..\..\luaclib\skynet.so
+     1>已完成生成项目“E:\skynet-vs2013\build\vs2013\lualib\skynet.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.79

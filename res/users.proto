@@ -1,0 +1,13 @@
+package users; 
+message users_info
+{
+	required int32 userid = 1;
+	optional int32 money = 2;
+	optional int32 exp = 3;
+	optional int32 level = 4;
+	optional int32 ranksocre = 5;
+	optional int32 gem = 6;
+	optional int32 head = 7;
+	optional int32 awardkey = 8;
+}
+

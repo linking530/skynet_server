@@ -1,0 +1,445 @@
+package game; 
+//2016是否献祭
+//2006 卡组操作是否成功
+//11组成卡牌成功保存数据，10不成功
+//21 修改卡组名称成功保存数据，20不成功
+//31 删除卡组成功保存数据，30不成功 
+message game_result
+{
+	required int32 id = 1;   	//结果id
+	optional int32 value = 2;   //结果数值	
+	optional string msg = 3;   	//信息
+}
+
+message game_users
+{
+	required int32 userid = 1;	//角色名id
+	required int32 level = 2;	//角色等级
+	required int32 sex = 3;		//角色性别	
+	required int32 school = 4;	//角色职业
+	required int32 vip = 5;		//角色是否VIP
+	required string name = 6;	//角色名称
+}
+
+message common_cards
+{
+	message common_card
+	{
+		required int32 cardid = 1;	//普通卡牌ID
+		optional int32 number = 2;	//普通卡牌数量
+	}
+	repeated common_card cards = 1;	//普通卡列表
+}
+
+message equip_cards
+{
+	message equip_card
+	{
+		required int32 cardid = 1;	//装备卡牌ID
+		optional int32 number = 2;	//装备卡牌数量
+	}
+	repeated equip_card cards = 1;	//装备卡列表
+}
+
+message shop_cards
+{
+	message shop_card
+	{
+		required int32 cardid = 1;	//商城卡牌ID
+		required int32 number = 2;	//商城卡牌数量
+		required int32 buy_price = 3;	//购买价格
+		required int32 sell_price = 4;	//出售价格;
+	}
+	repeated shop_card cards = 1;	//商城卡列表
+}
+
+
+message group_cards
+{
+	message group_card
+	{
+		required int32 cardid = 1;	//装备卡牌ID
+		optional int32 number = 2;	//装备卡牌数量
+	}
+	required int32 cards_id = 1;	//卡组ID
+	repeated group_card cards = 2;	//卡组列表
+	required string cards_name = 3;	//卡组名字	
+}
+
+//option 1创建组牌 2组牌 3删除组牌 4修改组牌名
+message group_cards_option
+{
+	message equip_card
+	{
+		required int32 cardid = 1;	//装备卡牌ID
+		optional int32 number = 2;	//装备卡牌数量
+	}
+	message common_card
+	{
+		required int32 cardid = 1;	//普通卡牌ID
+		optional int32 number = 2;	//普通卡牌数量
+	}	
+	required int32 id = 1;						//卡组ID
+	required int32 option = 2;					//卡组操作
+	optional string name = 3;					//卡组名
+	repeated equip_card equip_card_list = 4;	//装备卡列表
+	repeated common_card common_card_list = 5;	//普通卡列表	
+}
+
+//11组成卡牌成功保存数据，10不成功
+//21 修改卡组名称成功保存数据，20不成功
+//31 删除卡组成功保存数据，30不成功 
+message group_cards_result
+{
+	required int32 result = 1;
+}
+
+//1	compose_card fight 套牌编号  //申请战斗前认证卡牌合法性
+//2	war apply type    // 寻找对手,开始战斗 type：1匹配对战，2天梯对战
+//3	war withdraw type // 取消匹配对战     type：1为取消匹配对战，2为取消天梯对战
+//4	war exchange  // 更换手牌
+//5	war giveup    // 放弃,认输
+//6 war turnover //回合结束
+//7 war ok 操作结束,进入下一阶段
+message war_option
+{
+	required int32 option = 1;
+	optional int32 value = 2;	
+}
+
+//war sacrifice cardid pos// 祭献手牌,增加资源
+message war_sacrifice
+{
+	required int32 cardid = 1;
+	required int32 pos = 2;
+	optional int32 user_id = 3;
+}
+
+// war order cardid stype spos destid darea dpos     
+// cardid 发送效果的卡牌id(装备牌，装备牌id)  pos 战场上的牌的位置  destid 目标牌id  darea 效果区域  dsop  目标位置 
+// 使用技能
+//stype 4圣物 1手牌 7战场 9 结界
+// 如果有目标:destid darea dpos
+// 目标是指挥部：destid为0，darea为指挥部区域（5、6）,dpos 为0
+message war_order
+{
+	required int32 cardid = 1;
+	required int32 cardobj = 2;	//手牌objID		
+	required int32 spos = 3;
+	required int32 sarea = 4;
+	required int32 destid = 5;
+	required int32 darea = 6;
+	required int32 dpos = 7;	
+    required int32 dobjId = 8;		
+}
+
+//war deploy cardid spos destid darea dpos
+//同上，部署部队时，有主动技能指向发送,直接从部队位置打一个技能过去
+message war_deploy
+{
+	required int32 cardid = 1;
+	required int32 cardobj = 2;	//手牌objID	
+	required int32 spos = 3;
+	required int32 sarea = 4;
+	required int32 destid = 5;
+	required int32 darea = 6;
+	required int32 dpos = 7;	
+    required int32 dobjId = 8;
+}
+
+//war mov cardid s spos d dpos      s区域spos的牌,移动到 d区域dpos的位置
+//放到某个区域 0战术区 1手牌 2牌库 3墓地 4将军 5对方指挥部 6自己指挥部 7战场 8消失 9 结界
+message war_mov
+{
+	required int32 cardobj = 1;
+	required int32 cardid = 2;
+	required int32 s = 3;
+	required int32 spos = 4;
+	required int32 d = 5;
+	required int32 dpos = 6;
+}
+
+//[回合状态 %c] 0 战斗结算状态, 1 自己攻击布置状态，2自己防御布置状态 3.对方操作中
+//因为value可以为0，协议中如果没有此项默认为0，所以用option
+message cur_stutas
+{
+	required int32 value0 = 1;
+	optional int32 value = 2;
+	optional int32 flag = 3;//开始结束标志
+}
+
+message cur_stutas_time
+{
+	required int32 value = 1;
+}
+
+//0从上而下从左向右索引递增,1从下向上从右向左递增
+message front_begin
+{
+    required int32 head = 1;
+	required int32 value = 2;
+}
+
+//手牌
+message hands
+{
+	message card
+	{
+		required int32 cardid = 1;	//手牌ID
+		required int32 pos = 2;	    //手牌位置	
+		required int32 cardobj = 3;	//手牌objID
+	}	
+	optional int32 size = 1;		//手牌数量
+	repeated card list = 2;	        //手牌组
+	required int32 user_id = 3;	    //所属玩家
+}
+
+message change_hand
+{
+	required int32 user_id = 1;	//玩家ID
+	required int32 cardid = 2;	//手牌ID
+	required int32 pos = 3;	    //手牌位置
+	required int32 mtype = 4;	//1增加 2删除
+	required int32 cardobj = 5;	//手牌objID
+	optional int32 s_area = 6;	//源区域
+	optional int32 s_pos = 7;		//源位置
+}
+
+//指挥官
+message cmds
+{
+	message card
+	{
+		required int32 cardid = 1;	//ID
+		required int32 pos = 2;	    //位置	
+	}	
+	optional int32 size = 1;		//数量
+	required int32 user_id = 2;	    //所属玩家		
+	optional int32 max_hp = 3;	    //最大血量	
+	optional int32 cur_hp = 4;	    //当前血量	
+	optional int32 max_res = 5;	    //最大资源	
+	optional int32 cur_res = 6;	    //当前资源						
+	repeated card list = 7;	            //牌组
+	optional string name = 8;	    //名字		
+}
+
+//坟墓
+message diss
+{
+	message card
+	{
+		required int32 cardid = 1;	//牌ID
+		required int32 pos = 2;	    //牌位置	
+		required int32 cardobj = 3;	//手牌objID
+	}	
+	optional int32 size = 1;		//牌数量
+	repeated card list = 2;	        //牌组
+	required int32 user_id = 3;	    //所属玩家
+}
+
+//坟墓
+message change_diss
+{
+	required int32 cardid = 1;	//ID
+	required int32 pos = 2;	    //位置
+	required int32 user_id = 3;	//所属玩家
+	required int32 type = 4;	//1 增加 2减少
+}
+
+//牌库
+message crds
+{
+	required int32 user_id = 1;	//所属玩家
+	required int32 size = 2;	//牌库
+	repeated int32 list = 3;	//牌库
+}
+
+message fronts
+{
+	message card
+	{
+		required int32 cardid = 1;	//手牌ID
+		required int32 pos = 2;	    //手牌位置	
+		required int32 cardobj = 3;	//手牌objID
+	}	
+	required int32 size = 1;		//手牌数量
+	repeated card list = 2;	        //手牌组
+}
+
+message change_fronts
+{
+	required int32 cardid = 1;	//手牌ID
+	required int32 pos = 2;	    //手牌位置
+	required int32 user_id = 3;	//所属玩家
+}
+
+
+message card_dead
+{
+	required int32 cardid = 1;	
+	required int32 pos = 2;	    
+	required int32 user_id = 3;	
+	required int32 cardobj = 4;	//手牌objID
+}
+
+
+message move_to_fronts
+{
+	required int32 cardobj = 1;	//手牌objID
+	required int32 cardid = 2;	//手牌ID
+	required int32 spos = 3;	    //手牌位置	
+	required int32 dpos = 4;	    //手牌位置
+	required int32 user_id = 5;	//所属玩家
+}
+
+//res
+message res
+{
+	required int32 user_id = 1;	    //所属玩家
+	required int32 max_hp = 2;	    //最大血量
+	required int32 cur_hp = 3;	    //当前血量
+	required int32 max_res = 4;	    //最大资源
+	required int32 cur_res = 5;	    //当前资源			
+}
+
+//部队移动
+message front_mov
+{
+	required int32 spos = 1;	    //所属玩家
+	required int32 dpos = 2;	    //最大血量
+}
+
+message battle_states
+{
+	required int32 value0 = 1;
+	optional int32 status = 2;
+	optional int32 flag = 3;//开始结束标志
+}
+
+message win_user
+{
+	required int32 userid = 1;
+}
+
+message set_turn
+{
+	required int32 userid = 1;
+}
+
+//[0x2053%d][玩家ID %d][cardid %d][spos %c][目标区域 %c][dpos %c]
+message card_attack
+{
+	required int32 mtype = 1;
+	optional int32 userid = 2;
+	optional int32 cardid = 3;
+	optional int32 spos = 4;
+	optional int32 darea = 5;
+	optional int32 dpos = 6;
+}
+
+message cards_info
+{
+	required int32 pos = 1;
+	optional int32 hp = 2;
+	optional int32 mhp = 3;	
+	optional int32 ap = 4;	
+	optional int32 zz = 5;
+}
+
+
+//[0x5101 %d][任务ID %d][目标数量 %d]   //发送任务情况 	5001	task_list
+message task_list
+{
+	required int32 id = 1;
+	optional int32 num = 2;
+}
+//[0x5103 %d][任务ID %d]                  删除任务	5003	task_del
+message task_del
+{
+	required int32 id = 1;
+}
+//[0x5104 %d][任务ID %d][目标数量 %d]     增加任务	5004	task_add
+message task_add
+{
+	required int32 id = 1;
+}
+
+
+//[0x3100 %d][页数 %c][总页数 %c][1 %c]               //开始	6001	rank_list
+//[0x3101 %d][排名 %c][玩家id %d][分数 %d][玩家名字 %s] //发送排行榜数据		
+//[0x3100 %d][页数 %c][总页数 %c][2 %c]               //结束		
+//[0x3102 %d][当前排名 %c][分数 %d]                    当前排名	6002	rank_user
+message rank_list
+{
+	message rank_cell
+	{
+		required int32 rank = 1;
+		required int32 user_id = 2;
+		required int32 score = 3;
+		required int32 user_name = 4;	
+	}
+	required int32 cur_page = 1 ;		//手牌数量
+	required int32 total_page = 2;
+	repeated rank_cell list = 3;	        //手牌组
+}
+
+message rank_users
+{
+	required int32 cur_rank = 1 ;		//手牌数量
+	required int32 score = 2;
+}
+
+message map_npc
+{
+	required int32 mtype = 1 ;	 //--
+	repeated int32 list = 2;	 //npc列表
+}
+
+message jiejie_mov
+{
+	required int32 user_id = 1 ;
+	required int32 oid = 2 ;
+	required int32 cid = 3 ;
+	required int32 pos = 4 ;
+	required int32 postype = 5 ;
+}
+
+message add_stack
+{
+	required int32 user_id = 1 ;
+	required int32 oid = 2 ;
+	required int32 cid = 3 ;
+	required int32 sid = 4 ;
+	required int32 stype = 5 ;
+	required int32 spos = 6 ;
+	required int32 darea = 7 ;
+	required int32 dpos = 8 ;
+}
+
+message user_cmd
+{
+	required int32 user_id = 1;
+	required string msg = 2;	    //名字
+}
+
+//购买类型 消耗类型 道具id 数量    购买道具   //购买类型：1卡包  2卡背  3单卡市场    消耗类型：1金币 2钻石
+message buy_item
+{
+	required int32 buy_type = 1 ;	//消耗类型
+	required int32 currency_type = 2 ;//道具id
+	required int32 item_id = 3 ;	//数量
+	required int32 item_num = 4 ;	//数量
+}
+
+//[0x2050 %d][8]
+//战术牌效果
+//[0x2050 %d][玩家ID %d][cardid %d][cardpos %c][技能编号 %d]  
+//[0x2050 %d][9]
+message battle_card_effect
+{
+	required int32 user_id = 1 ;	//玩家ID
+	required int32 cardid = 2 ;	//道具id
+	required int32 cardpos = 3 ;	//数量
+	required int32 skill_id = 4 ;	//技能编号
+	required int32 flag=5;			//8显示开始，9显示结束
+}

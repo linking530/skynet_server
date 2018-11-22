@@ -1,0 +1,22 @@
+﻿生成启动时间为 2018/4/18 15:01:53。
+     1>项目“E:\skynet-vs2013\build\vs2013\lualib\lua-cjson.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\3rd\lua /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D LUA_BUILD_AS_DLL /D _DEBUG /D _WINDOWS /D _USRDLL /D LUA53_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\output\lua-cjson\Debug\\" /Fd"..\output\lua-cjson\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS "..\..\..\lualib-src\lua-cjson\fpconv.c" "..\..\..\lualib-src\lua-cjson\lua_cjson.c" "..\..\..\lualib-src\lua-cjson\strbuf.c"
+         strbuf.c
+         lua_cjson.c
+     1>e:\skynet-vs2013\lualib-src\lua-cjson\lua_cjson.c(225): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\lua-cjson\lua_cjson.c(477): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\lua-cjson\lua_cjson.c(509): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         fpconv.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\cjson.so" /INCREMENTAL /NOLOGO /LIBPATH:"E:\skynet-vs2013\build\vs2013\\" /LIBPATH:"E:\skynet-vs2013\build\vs2013\..\..\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"E:\skynet-vs2013\build\vs2013\lualib\lua-cjson.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\cjson.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\cjson.lib" /MACHINE:X86 /DLL "..\output\lua-cjson\Debug\fpconv.obj"
+         "..\output\lua-cjson\Debug\lua_cjson.obj"
+         "..\output\lua-cjson\Debug\strbuf.obj"
+         "E:\skynet-vs2013\lua53.lib"
+     1>LINK : fatal error LNK1104: 无法打开文件“E:\skynet-vs2013\build\vs2013\lualib\lua-cjson.def”
+     1>已完成生成项目“E:\skynet-vs2013\build\vs2013\lualib\lua-cjson.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.77

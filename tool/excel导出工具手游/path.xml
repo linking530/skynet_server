@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+本文件可配置多个路径下的游戏表对应生成txt文件，格式如下：
+<path>
+        <files srcPath = "D:\台湾版游戏表\" disPath = "D:\txt\tw\" jtof = "yes"/>
+        <files srcPath = "D:\游戏表\" disPath = "D:\txt\cn\" jtof = "no"/>
+        ........
+</path>
+-->
+
+<path>
+        <!-- srcFile:原文件名，sheet:xls文件的业名，dstFile:目标文件名，只支持读取第一行、第一列的*号对应的数据，jtof:是否简转繁(yes/no)/-->
+<!--         <files srcPath = "i:\一项excel导出工具\一项excel导出工具\一项excel导出工具\外服表\" disPath = "i:\sever_php\new\导表工具\excel导出工具\config\txt\cn\" jtof = "no" /> -->
+        <files srcPath = "E:\kebie\skynet_server\server-master\表\" disPath = "E:\kebie\skynet_server\server-master\res\cn\" jtof = "no" />
+<!--         <files srcPath = "i:\sever_php\new\表\内服表\" disPath = "i:\sever_php\new\导表工具\excel导出工具\config\txt\cn\" jtof = "no" /> -->
+        <!-- <files srcPath = "i:\sever_php\new\表\外网测试服\" disPath = "i:\sever_php\new\导表工具\excel导出工具\config\txt\cn\" jtof = "no" /> -->
+<!--         <files srcPath = "i:\sever_php\new\表\外服表\" disPath = "i:\sever_php\new\导表工具\excel导出工具\config\txt\cn\" jtof = "no" /> -->
+        <!-- <files srcPath = "i:\sever_php\new\表\神谕之剑SF\" disPath = "i:\sever_php\new\导表工具\excel导出工具\config\txt\cn\" jtof = "no" /> -->
+        <!-- <files srcPath = "i:\sever_php\new\表\台湾收费版表\" disPath = "i:\sever_php\new\导表工具\excel导出工具\config\txt\cn\" jtof = "no" /> -->
+<!--         <files srcPath = "i:\sever_php\new\表\魔域之剑SF\" disPath = "i:\sever_php\new\导表工具\excel导出工具\config\txt\cn\" jtof = "no" /> -->
+<!--         <files srcPath = "E:\proj4\public_doc\表\" disPath = "E:\proj4\server\game_os_ex\BIN\config\txt\cn\" jtof = "no" /> -->
+        <!--files srcPath = "D:\mhhz\single\B_to_code_doc\三项资源\游戏表\" disPath = "D:\data\EncodChange\源码\xls2txt_utf8\txt_current\sg\" jtof = "no" /-->
+</path>

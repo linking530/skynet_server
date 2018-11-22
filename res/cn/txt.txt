@@ -1,0 +1,475 @@
+ID	name_text_cn	name_text_en	class1_text_cn	class1_text_en	class2_text_cn	class2_text_en	art	skill_text_cn	skill_text_en	story_text_cn	story_text_en
+int	string	string	string	string	string	string	string	string	string	string	string
+10001	秩序戒指	Order Rings	秩序	Order	圣物	Holy	ZZW			“万物皆有其属于自己秩序。”\n                          ——迪普米斯的信条	
+10002	圣战军旗	Jihad Banner	秩序	Order	圣物	Holy	ZZW	【唯一】\n③，力竭:在你的防线上放置一个帝国新兵衍生物。	【Unique】\n③,Exhaust:Put a Empire Recruit token onto your defence-line.	这面古老的旗帜见证了帝国的辉煌，长久的战火在它身上留下了荣耀的痕迹。帝国的勇士们集结在军旗之下，向异教徒发起圣战。	
+10003	拉多娜的援助	Ladonna's Aid	秩序	Order	圣物	Holy	ZZW	【唯一】\n②，力竭:治疗目标生物或玩家2点伤害。	【Unique】\n②,Exhaust:Health 2 damage to target creature or player.	“当病者、瘸子以及盲人敲她的房门，恳求帮助时，拉多娜开门迎接他们，并给以他们面包及水，倾听他们的疾苦。”\n                   ——圣典·拉多娜的赞美诗	
+10004	圣战盾牌	Jihad Shield	秩序	Order	圣物	Holy	ZZW	22&【唯一】\n④，力竭:友方所有生物获得+0/+1，该技能只能在你的回合中使用。	【Unique】\n④,Exhaust:Friendly creatures get +0/+1.Activate this ability only during your turn.	受到正义之神麦里巴洛亚所祝福的圣盾，能给予穿戴者强大的保护。	
+10005	苍白的正义	Pale Justice	秩序	Order	圣物	Holy	ZZW	【唯一】\n②，力竭:目标生物获得【先攻】直到回合结束。	【Unique】\n②,Exhaust:Target creature gains 【First strike】 until end of turn.	正义苍白而谦逊，但绝非无力之物。	Justice is pale and humble, but it is not a thing of weakness.
+10006	拉多娜的护身符	Ladonna's Amulet	秩序	Order	圣物	Holy	ZZW	【唯一】【瞬间】\n④，力竭:抓一张牌，该技能只能在你的回合中使用。	【Unique】【Instant】\n④,Exhaust:Draw a card.Activate this ability only during your turn.	“己所不欲，勿施于人。”\n                            ——拉多娜的信条	"Do not do to others what you would not have them do to you."\n                          ——Ladonna's Creed
+20001	知识戒指	Knowledge Rings	心灵	Mind	圣物	Holy	0			“戒冲动求平衡，戒愚鲁求博学，戒愤怒求冷静，戒籍力量达永生。”\n                           ——魔兰迪亚的信条	
+20002	隐身斗篷	Stealth Cloak	心灵	Mind	圣物	Holy	0	【唯一】【瞬间】\n②，力竭:目标生物获得伪装直到回合结束。	【Unique】【Instant】\n②,Exhaust:Target creatures gains 【Camouflage】 until end of turn.	据说该斗篷是由艾维斯学院某位导师所制，最后辗转落到了盗贼王巴力的手中。	
+20003	时光鞋	Time Shoes	心灵	Mind	圣物	Holy	0	【唯一】\n③，力竭:将目标友方生物移回手牌，该技能只能在你的回合中使用。	【Unique】\n③,Exhaust:Return target creature to your hand.Activate this ability only during your turn.	鞋子表面绣满了代表时间符文的精美刺绣。法师们认为只要说出正确的咒语，便能利用这双鞋子穿越时空。	
+20004	飞行魔毯	Flying Carpet	心灵	Mind	圣物	Holy	0	【唯一】\n②，力竭:目标生物获得【飞行】直到回合结束。	【Unique】\n②,Exhaust:Target creature gains 【Flying】 until end of turn.	对于初学者来说，操控魔毯飞行可不是一件容易的事。	
+20005	惧像石	Horrible Illusion Stone	心灵	Mind	圣物	Holy	0	【唯一】\n④，力竭:敌方所有生物获得-1/-0直到回合结束。	【Unique】\n④,Exhaust:Enemy creatures get -1/-0 until end of turn.	突然间，一股来自四面八方、异常强大的心灵力量涌入众人的脑海，种种既恐怖又邪恶的画面盘绕在脑海里挥之不去，这突如其来的幻象几乎让所有人的精神濒临崩溃。	
+20006	心灵石	Mind Stone	心灵	Mind	圣物	Holy	0	【唯一】【瞬间】\n④，力竭:抓一张牌，该技能只能在你的回合中使用。	【Unique】【Instant】\n④,Exhaust:Draw a card.Activate this ability only during your turn.	这块宝石底面镌刻的古老精灵文字。你可以清晰的听到宝石中发出的声音，甚至可以和它交谈，然而你没办法听懂那些古怪的语言，只能把它当成噪声。	
+30001	黑暗戒指	Dark Rings	黑暗	Dark	圣物	Holy	0			“善良与邪恶也只不过是相对而论罢了。”\n                          ——阿泽拉丝的信条	
+30002	殉道者骨杖	Martyr Bonewand	黑暗	Dark	圣物	Holy	ISHTAIRS	【唯一】\n②，力竭:消灭目标友方生物，随机一个友方生物获得+2/+1.	【Unique】\n①,Exhaust:Destroy target friendly creature, another friendly creature get +2/+1 at random.	阿泽拉丝的大祭师常以殉道者头骨制成的法杖，举行各种邪恶的献祭仪式。	
+30003	鲜血契约	Blood Contract	黑暗	Dark	圣物	Holy	0	【唯一】\n②，力竭:你失去2点生命，你抓一张牌。	【Unique】\n②,Exhaust:You lost 2 life, you draw a card.	与恶魔签下契约必定支付相应的代价！	
+30004	吸血鬼之牙	Vampire's Teeth	黑暗	Dark	圣物	Holy	ERON	【唯一】\n②，力竭:目标生物获得【吸血】直到回合结束。	【Unique】\n②,Exhaust:Target creature gains 【Suckblood】 until end of turn.	起初只是宴会上的一个恶作剧道具，然而一位邪恶（好事）的法师，将诅咒注入其中……佩戴这幅假牙的人，因此获得吸取他人生命的能力，而变得异常嗜血。	
+30005	亡者之噬	The Dead Bite	黑暗	Dark	圣物	Holy	GILYONG	【唯一】\n③，力竭:对目标生物或玩家造成1点伤害，你获得1点生命。该技能只能在你的回合中使用。	【Unique】\n③,Exhaust:Deals 1 damage to target creature or player, you gain 1 life.Activate this ability only during your turn.	这把邪恶的匕首上刻满了怪异的恶魔文字。每次攻击都会吸取敌人的力量，缓缓的补充持有者的生命力。	
+30006	黑暗之心	Heart of Dark	黑暗	Dark	圣物	Holy	SSUK	【唯一】【瞬间】\n④，力竭:抓一张牌，该技能只能在你的回合中使用。	【Unique】【Instant】\n④,Exhaust:Draw a card.Activate this ability only during your turn.	光芒消退，暗日掩没。每当此事成真，大地将陷入黑暗和寂静。	
+40001	毁灭戒指	Doom Rings	毁灭	Doom	圣物	Holy	団長！			“无序与混沌是吾等力量之翼。”\n                      ——费斯坦洛菲尔的信条	
+40002	硫磺法杖	Sulphur Stick	毁灭	Doom	圣物	Holy	ZZW	【唯一】\n②，力竭:对目标生物造成1点伤害。该技能只能在你的回合中使用。	【Unique】\n②,Exhaust:Deals 1 damage to target creature. Activate this ability only during your turn.	杖头镶嵌了一块很大的硫磺石，使用者只需注入一点魔力，便能点燃法杖，向目标扔出一个火球。	
+40003	博多的战盾	Boldog's Shield	毁灭	Doom	圣物	Holy	ZZW	【唯一】\n②，力竭:向对手造成1点伤害。	【Unique】\n②,Exhaust:Deals 1 damage to opponent.	这个布满伤痕的盾牌背面刻着一行小字：“以牙还牙，以血还血。”	
+40004	博多的战斧	Boldog's Battle-Ax	毁灭	Doom	圣物	Holy	ZZW	【唯一】\n②，力竭:目标生物获得+1/+0。	【Unique】\n②,Exhaust:Target creature gets +1/+0.	兽人督军博多留下的斧头。斧头只由一个粗糙的刀刃和木制的柄子所组成，但其上的刻满了神秘的萨满文字。虽然你看不懂文字的意思，但拿着斧头的时候，你会明显感觉到一股充满全身的力量。	
+40005	战争号角	War Horn	毁灭	Doom	圣物	Holy	ZZW	【唯一】\n④，力竭:友方所有生物获得+2/+0直到回合结束。	【Unique】\n④,Exhaust:Friendly creatures get +2/+0 until end of turn.	当号角响起时，无数兽人如潮水般涌向敌人。	
+40006	战争头盔	War Helmet	毁灭	Doom	圣物	Holy	ZZW	【唯一】【瞬间】\n④，力竭:抓一张牌，该技能只能在你的回合中使用。	【Unique】【Instant】\n④,Exhaust:Draw a card.Activate this ability only during your turn.	它最初是一位兽人英雄的装备，在那位兽人英雄死后，这头盔数次易主，接着再一次冲突中落入博多的手中。	
+50001	自然戒指	Nature Rings	自然	Nature	圣物	Holy	ZZW			生于自然，侍于自然。\n                          ——尼雅娜亚的信条	
+50002	大地之环	Earthen Ring	自然	Nature	圣物	Holy	ZZW	【唯一】\n②，力竭:目标生物获得+1/+1直到回合结束。	【Unique】\n②,Exhaust:Target creature gets +1/+1 until end of turn.	德鲁伊通过大地之环与森林沟通，从而获得强化自身的魔力。	
+50003	尼雅娜亚的眼泪	NiyaNoah's Teardrop	自然	Nature	圣物	Holy	ZZW	【唯一】\n②，力竭:防止目标友方生物本回合受到和造成的所有战斗伤害。	【Unique】\n②,Exhaust:Prevent all combat damage that would be dealt to and dealt by target friendly creature this turn.	“眼看争斗一触即发，女神流下了眼泪。霎间泪水化作大雾，将万物笼罩，纷争就此平息……”\n                           ——精灵远古的歌谣	
+50004	永恒的星光	Eternal Starlight	自然	Nature	圣物	Holy	ZZW	22&【唯一】\n③，力竭:目标生物获得+1/+1，该技能只能在你的攻击回合中使用。	【Unique】\n③,Exhaust:Target friendly creatures get +1/+1. Activate this ability only during your turn.	柳德米拉爬上了树冠，小心翼翼地摘下了这颗宝石。当握住宝石的刹那间，她便感到一股神奇的力量涌入身体。	
+50005	自然呼唤	Nature Call	自然	Nature	圣物	Holy	ZZW	21&【唯一】\n⑤，力竭:如果你牌库顶牌是生物，则将其放置于你的防线上。该技能只能在你的攻击回合中使用。	21&【Unique】\n⑤,Exhaust:If the top card of your library is a creature,put it onto your defence-line. Activate this ability only during your turn.	“仔细聆听大自然的呼吸。” \n                             自然猎者柳德米拉	
+50006	世界树果实	World Tree Fruit	自然	Nature	圣物	Holy	ZZW	【唯一】【瞬间】\n④，力竭:抓一张牌，该技能只能在你的回合中使用。	【Unique】【Instant】\n④,Exhaust:Draw a card. Activate this ability only during your turn.	尽管果实被摘下来已经很久很久了，但仍旧充满生命活力，就像刚从树上摘下来一样。	
+90000	试炼者印记	The Trial Marking	圣物	Holy	0	0	BOOTA				
+90001	试炼者印记	The Trial Marking	圣物	Holy	0	0	BOOTA				
+90002	试炼者印记	The Trial Marking	圣物	Holy	0	0	BOOTA				
+90003	试炼者印记	The Trial Marking	圣物	Holy	0	0	BOOTA				
+90004	试炼者印记	The Trial Marking	圣物	Holy	0	0	BOOTA				
+90005	试炼者印记	The Trial Marking	圣物	Holy	0	0	BOOTA				
+90006	试炼者印记	The Trial Marking	圣物	Holy	0	0	BOOTA				
+90007	地精包围网	Goblin's Snare	毁灭	Doom	圣物	Holy	0	力竭:在你的防线放置一个地精劫匪衍生物。	Exhaust:put a Goblin Robber token onto your defence-line.		
+90008	横扫	Swept	秩序	Order	圣物	Holy	0	③，力竭:对前线上所有敌方生物和对手造成1点伤害。	③,Exhaust:Deals 1 damage to enemy creatures in battlefront and deals 1 damage to opponent.	0	0
+90009	重击	Thump	秩序	Order	圣物	Holy	0	④，力竭:向对手造成4点伤害。	④,Exhaust:Deals 4 damage to opponent.	0	0
+90010	帝国军旗	Imperial Ensign	秩序	Order	圣物	Holy	0	④，力竭:在你的防线上放置一个精锐骑士衍生物。	④,Exhaust:Put a Elite Knights token onto your defence-line.		
+90011	迪普米斯的制裁	Depomis's Punish	秩序	Order	圣物	Holy	0	①，力竭:对目标前线上的生物造成2点伤害。	①,Exhaust:Deals 2 damage to target creature in battlefront.		
+90012	恶魔之炎	Demon's Fire	毁灭	Doom	圣物	Holy	0	③:对所有敌方生物和对手造成2点伤害。	③:Deals 2 damage to all enemy crertures and opponent.		
+90013	新绿成长	Verdant Growth	自然	Nature	圣物	Holy	0	③:所有友方自然生物获得+1/+1。	③:All friendly Nature creatures get +1/+1.		
+90014	死亡召唤	Death Call	黑暗	Dark	圣物	Holy	0	④，力竭:将目标生物从你的墓地移至你的防线上。	④,Exhaust:Put taget creature in your graveyard onto your defence-line.		
+90015	鲜血献祭	Blood Sacrifice	黑暗	Dark	圣物	Holy	0	③，力竭:消灭目标友方生物，使对手受到X点伤害，X为该生物的攻击力。	③,Exhaust:Destroy target friendly creature, deals X damage to opponent,where X is its power.		
+90016	鼓舞	Inspire	自然	Nature	圣物	Holy	0	④，力竭:你获得3点生命，抓一张牌。	④,Exhaust:You gain 3 life, draw a card.	0	0
+90017	盗窃	Theft	心灵	Mind	圣物	Holy	0	②，力竭:将对手牌库顶一张牌置于你的手牌。	②,Exhaust:Puts the top a card of opponent's library into your hand.	0	0
+90018	背刺	Backstab	黑暗	Dark	圣物	Holy	0	②，力竭:目标生物获得-1/-1。	②,Exhaust:Target creature gets -1/-1.	0	0
+90019	斩杀	Beheaded	黑暗	Dark	圣物	Holy	0	③，力竭:消灭目标受伤的生物。	③,Exhaust:Destroy target wounded creature.	0	0
+90020	血刃	Blood Blade	毁灭	Doom	圣物	Holy	0	②，力竭:目标生物获得+1/+0和连击技能直到回合结束。	②,Exhaust:Target creature gets +1/+0 and gains 【Double strike】 until end of turn.	0	0
+90021	能量核心	Energy Core	秩序	Order	圣物	Holy	0	①，力竭:治疗目标友方屏障1点伤害。	①,Exhaust:Health 1 damage to target friendly Barrier.	0	0
+90022	幻象水晶	Phantom Crystal	圣物	Holy	0	0	0			0	0
+100000	粘土魔像	Clay Golem	造物	Artifact	魔像	Golem	0	##	##	使用黏土制成的魔像——在后面几乎还是湿的。	
+100001	连结魔像	Connect Golem	造物	Artifact	魔像	Golem	0	##\n所有其他魔像获得+1/+1。	##\nOther Golems get +1/+1.	为了验证这些古老魔像之间是否存在某种联系，探险队付出了沉重的代价。	
+100002	宝库看守	Trove Watcher	造物	Artifact	魔像	Golem	0	##【守护】\n【死亡】:所有玩家抓一张牌。	##【Guardian】\n【Die】:Each players draws a card.	“事成之后咱俩一定要平分！”\n～某盗贼团成员最后的遗言	
+100003	喷火傀儡	Spitfire Puppet	造物	Artifact	魔像	Golem	0	##\n每当喷火傀儡在你的回合攻击时，获得+3/+0直到回合结束。	##\nWhenever Spitfire Puppet attacks in your turn, it gets +3/+0 until end of turn.	它的创造者或许无法想象当机器投入战争时造成了多么恐怖的地狱光景。	
+100004	黑曜石守卫	Obsianus Guard	造物	Artifact	魔像	Golem	0	##【守护】	##【Guardian】	只有精通矿石雕刻的矮人才能利用这种黑色的石头制作出如此非凡的工艺品。	
+100005	青铜哨兵	Bronze Sentinel	造物	Artifact	魔像	Golem	0	##【警戒】【先攻】	##【Vigilance】【First strike】	这个魔像采用青铜版工艺精心雕铸而成，看似沉重笨拙，实则行动起来非常敏捷。	
+100006	锈蚀铁卫	Protector Rust	造物	Artifact	魔像	Golem	0	##\n你的回合开始时，锈蚀铁卫获得-1/-1。	##\nAt the begin of your turn, Rust of the Protector gets -1/-1.	“我不是说过很多遍了吗？记得保养啊！”\n～矮人工匠师	
+100007	顽石魔像	Rock Golem	造物	Artifact	魔像	Golem	0	##【迟缓】	##【Slowly】	“这的确是一件了不起的工艺品，可惜太迟钝了。”\n～天之都商人	
+100008	自爆魔像	Volatile Golem	造物	Artifact	魔像	Golem	0	##\n【死亡】:随机对敌方一个生物或玩家造成4点伤害。	##\n【Die】:Deals 4 damage to a creature or player at random.	“第一，敲碎它的脑袋。”\n“第二，赶紧找个安全的地方躲起来。”\n“第三……砰！”	
+100009	骑士雕像	Knight Statue	造物	Artifact	魔像	Golem	0	##【冲锋】	【Charge】	“我不确定这家伙是否具有骑士精神，但可以肯定的是它帮助我赢得了两次骑士大赛的冠军。”	
+100010	奏乐魔像	Altar Golem	造物	Artifact	魔像	Golem	0	##\n【死亡】:你获得4点生命。	##\n【Die】:You gain 4 life.	亚薇音乐家所召唤出的魔像，提供了对抗亡灵时坚实又可当炮灰的第一道防线。	
+100011	拼装魔像	Patchwork Golem	造物	Artifact	魔像	Golem	0	##\n每个回合结束时，治疗拼装魔像受到的所有伤害。	##\nAt the end of each turn, Patchwork Golem heal all damage.	「非常肯定的是，这些魔像会利用同伴的残骸修复自身的损伤。」\n～托马斯的研究笔记	
+100012	远古守卫沃伊泰克	Wojtek,Ages Protector	造物	Artifact	魔像	Golem	0	##【传奇】【践踏】\n⑧:远古守卫沃伊泰克获得+8/+8。	##【Legend】【Tramp】\n⑧:Wojtek,Ages Protector Gets +8/+8.	千年以来沃伊泰克一直守护在这里，绝不放过任何一个胆敢擅闯古代矮人王国的人。	
+100013	训练假人	Training Doll	造物	Artifact	0	0	0	##【警戒】【守护】	##【Vigilance】【Guardian】	“新兵！看清楚，这里才是要害部位！不要砍偏了！”	
+100014	先知高塔	Prophet Tower	造物	Artifact	0	0	0	##【警戒】【守护】\n你的回合开始时，你抓一张牌。	##【Vigilance】【Guardian】\nAt the beginning of your turn,you draw a card.	每当蓝月处于一年至高位的月圆之刻，魔兰迪亚信徒都会聚集在图书馆中作连续一整夜的静思。这一天被信徒们称为“纯夜”。	0
+100015	烈焰之塔	Fire Tower	造物	Artifact	0	0	0	##【警戒】【守护】\n对手回合结束时，对所有敌方生物造成1点伤害。	##【Vigilance】【Guardian】\nAt the end of the opponent's turn, deals 1 damage to enemy creatures.	在天罚之年期间，巴那姆的法师为了对抗亡灵大军而建造了无数的魔法防御塔。	
+100016	小型魔像	Miniature Golem	造物	Artifact	魔像	Golem	0	##	##	学院制造了大量的魔像，主要用来帮忙完成各种体力杂活。	
+100017	奥术守卫	Arcane Guard	造物	Artifact	魔像	Golem	0	##【迟缓】	##【Slowly】	奥术守卫平时给人呆头呆脑的感觉，然而一旦学院受到威胁，它们会立马变为一台残酷的杀戮机器。	
+100018	魔兰迪亚祭坛	Malandia Altar	造物	Artifact	祭坛	Altar	0	##【警戒】【守护】\n每当你献祭时，所有玩家抓一张牌。	##【Vigilance】【Guardian】\nWhenever you offering, each players draw a card.	魔兰迪亚的信徒致力于发掘奥秘与分享知识，没有什么比这些更能感受到愉悦了。	
+100019	尼雅娜亚祭坛	NiyaNoah Altar	造物	Artifact	祭坛	Altar	0	##【警戒】【守护】\n每当你献祭时，额外获得①法力。	##【Vigilance】【Guardian】\nWhenever you offering, get an additional ① mana.	「尼雅娜亚使得植物从原本一无所有的土地上生长出来。她从自然的泥土和他的生命之水中创造动物，以助我们生存。」	
+100020	阿泽拉丝祭坛	Aselass Altar	造物	Artifact	祭坛	Altar	0	##【警戒】【守护】\n每当你献祭时，随机将己方墓地中的一张生物牌移回你的手牌。	##【Vigilance】【Guardian】\nWhenever you offering, return a creature from your graveyard at random to your hand.	只要是有利的，死亡都可以利用起来。	
+100021	费斯坦洛菲尔祭坛	Fistanrofer Altar	造物	Artifact	祭坛	Altar	0	##【警戒】【守护】\n每当玩家献祭时，该玩家受到2点伤害。	##【Vigilance】【Guardian】\nWhenever a player offering,deals 2 damage to him.		
+100022	迪普米斯祭坛	Depomis Altar	造物	Artifact	祭坛	Altar	0	##【警戒】【守护】\n每当你献祭时，随机一个敌方生物无法造成战斗伤害直到对手回合结束。	22&##【Vigilance】【Guardian】\nWhenever you offering, a enemy creature at random unable to deals combat damage until end of opponent's turn.	「在庄严的击锤声中，我从梦中醒转。我犯了罪，在这和平的梦乡中，我被迪普米斯传唤。我因为我深爱着一个女人，却对另一个觊觎不已。我们在迪普米斯的面前，秩序之神降下了他的判决。」	
+100023	荒野稻草人	Wild-Field Scarecrow	造物	Artifact	稻草人	Scarecrow	0	##\n荒野稻草人不会受到战斗伤害。	##\nPrevent all combat damage to Wild-Field Scarecrow.		
+100024	0	0	0	0	0	0	0				
+110000	斗犬	Hound	野兽	Beast	0	0	0	##【先攻】	##【First strike】	法安城的卫兵们很喜欢驯养这种狗只充当警卫。	
+110001	先锋兵	Vanguard Soldier	人类	Human	士兵	Soldier	0	##【护盾1】	##【Shield 1】	“勇往直前！”	
+110002	颂恩天使	Angel of Carolgrace	天使	Angel	0	0	0	##【祝福】【飞行】\n颂恩天使处于领域上时，获得+1/+1。	##【Blessing】【Flying】\nAngel of Carol Grace gets +1/+1 when it on the domain.	「赞美你，天父，向着你惊人的上升！\n你上升，照耀，令诸天向一旁滚动。\n你是众神之王，万物之主，\n我们自你而来，因你而成神圣。」\n～天使的赞歌	
+110003	轻步兵	Light Infantry	人类	Human	士兵	Soldier	0	##\n【显现】:目标生物获得+2/+0直到回合结束。	##\n【Emerge】:Target creature gets +2/+0 until end of turn.	他忠于自己的岗位，虽然偶尔还是会偷懒打瞌睡。	
+110004	拉多娜医师	Ladonna's Surgeon	人类	Human	祭司	Priest	0	##\n你的回合开始时，你获得1点生命。	##\nAt the begin of the your turn, you gain 1 life.	拉多娜的医师多半直属于“医护骑士”的组织之下，她们以仁慈怜悯之心，与高超的医疗护理技巧为世间的人所认知。	
+110005	铸甲师	Cast Armor Division	人类	Human	士兵	Soldier	0	##\n【显现】:目标生物获得【护盾1】。	##\n【Emerge】:Target creature gains 【Shield 1】.	好剑助你胜利，好盾保你一命。	
+110006	防御专家	Defense Expert	人类	Human	士兵	Soldier	0	##\n友方其他士兵获得+0/+1。	##\nOther friendly Soldiers get +0/+1.	当作战不利时，有效的防御也会成为扭转战局的关键。	
+110007	封魔师	Seal Mage	人类	Human	法师	Mage	0	##\n【显现】:封印目标生物。	##\n【Emerge】:Seal target creature.	在死灵横行的年代，封魔师无论在哪都倍受欢迎。	
+110008	杰出队长	Preeminent Captain	人类	Human	士兵	Soldier	0	##\n友方其他士兵获得+1/+0。	##\nOther friendly Soldiers get +1/+0.		
+110009	刃跃者	Blade Leaper	人类	Human	杀手	Assasin	0	##【闪现】【先攻】	##【Flash】【First strike】	其疾如风，侵掠如火。	
+110010	宫廷医师	Palace Surgeon	人类	Human	祭司	Priest	0	##\n【显现】:你获得2点生命。	##\n【Emerge】:You gain 2 life.		
+110011	长弓箭手	Longbow Archer	人类	Human	士兵	Soldier	0	##【先攻】【制空】	##【First strike】【Reach】		
+110012	天翼城督军	Heavenwing Governor 	人类	Human	骑士	Knight	0	##【先攻】【闪现】\n每当天翼城督军对玩家造成战斗伤害，在你的防线上放置一个帝国新兵衍生物。	20&##【Flash】【First strike】\nWhenever Governor of Heavenwing deals combat damage to a player, put a Empire Recruit token onto your defence-line.	天翼城作为天之都最大的军事要塞，其管理者必定具有极高的战斗技艺和军事才能。	
+110013	掌旗兵	Standard Bearer	人类	Human	士兵	Soldier	0	##\n【显现】:友方所有生物获得+1/+1直到回合结束。	##\n【Emerge】:Friendly creatures get +1/+1 until end of turn.		
+110014	猎隼	Saker	鸟	Bird	0	0	0	##【飞行】【先攻】	##【Flying】【First strike】	这些鹰视力极好并能警告主人即将到来的危险。 	
+110015	前线指挥官	Frontline Commander	人类	Human	士兵	Soldier 	0	##\n其他友方秩序生物+1/+1。	##\nOther friendly Order creatures get +1/+1.	这名军官从队伍后发号施令。他响亮的吼声传遍战场。 	
+110016	圣殿骑士	Knights Templar	人类	Human	骑士	Knight	0	##【先攻】\n友方士兵具有【先攻】技能。	22&##【First strike】\nFriendly Soldiers have 【First strike】.		
+110017	拉多娜祭司	Ladonna's Priest	人类	Human	祭司	Priest	0	##\n你的回合结束时，治愈友方所有生物1点伤害。	##\nAt the end of your turn,health 1 damage to friendly creatures.	比起低阶的医师，拉多娜的祭司可使用更强大的治疗法术。	
+110018	重装步兵	Heavy Infantry	人类	Human	士兵	Soldier 	0	##【护盾1】	##【Shield 1】	士兵们毫无畏惧的屹立在最前线，形成一道钢铁般的护墙。	
+110019	皇家狮鹫	Royal Griffin	鸟	Bird	0	0	0	##【飞行】【护盾1】	##【Flying】【Shield 1】	这些训练有素的狮鹫只会忠于皇室成员。一般人胆敢触碰它们只会成为利爪和尖喙下的牺牲品。	
+110020	捕灵鸟	Soulcatch Bird	鸟	Bird	0	0	0	##【飞行】\n①:消灭自己和目标前线上的生物。	##【Flying】\n①:Destroy itself and target creature in battlefront.		
+110021	信仰庇护者爱奥拉	Aiola,Faith Patron	天使	Angel	0	0	0	##【传奇】【飞行】【祝福】\n每当你获得生命时，友方所有生物获得+1/+1。	##【Legend】【Flying】【Blessing】\nWhenever you gain life,friendly creatures get +1/+1.		
+110022	方阵兵团长	Phalanx Leader	人类	Human	士兵	Soldier	0	22&##\n友方士兵获【护盾2】技能。\n【显现】:在你的防线上放置三个帝国新兵生物。	21&##\nFriendly Soldiers have【Shield 2】.\n【Emerge】:Put three Empire Recruit tokens onto your defence-line.	他们意志坚定，纪律严明，即使城墙被毁，他们仍坚定地筑起防线，以替代城墙。	
+110023	先祖之灵	Ancestral Spirit	圣灵	Spirit	0	0	0	##【飞行】\n每当先祖之灵在自己回合攻击时，将墓地中随机一张领域牌移回手中。	20&##【Flying】\nWhenever Ancestral Spirit attacks in your turn, return a domain from your graveyard to your hand at random.		
+110024	巴洛亚神像	Basoa Colossus	造物	Artifact	魔像	Golem	0	##【警戒】【守护】\n其他友方生物+2/+2。	##【Vigilance】【Guardian】\nOther friendly creatures get +2/+2.	谨遵吾父之意，我欲斩奸除恶。	
+110025	坚毅天使	Resolute Angel	天使	Angel	0	0	0	##【飞行】【闪现】\n【显现】:防止友方生物和玩家本回合受到的所有伤害。	20&##【Flying】【Flash】\n【Emerge】:Prevent all damage that would be dealt to friendly creatures and player this turn.		
+110026	天国守护使	Angelic Protector	天使	Angel	0	0	0	##【飞行】【闪现】【祝福】【守护】【机动2】	25&##【Flying】【Flash】【Blessing】【Guardian】【Mobility 2】	他是神的使者，正义的化身，真理的守护者。	
+110027	秩序守护者马高	Mago,Order Guardian	人类	Human	圣武士	Paladin	0	##【传奇】【机动1】\n防止对秩序守护者马高造成的所有伤害。	22&##【Legend】【Mobility 1】\nPrevent all damage that would be dealt to Mago,Order Guardian.	“任何制度都需要秩序的保障，而我们就是秩序的最有力保障！”	
+110028	亚微族旅者	Aries Traveler	亚微	Ari	诗人	Minstrel	0	##\n【显现】:治疗目标生物或玩家2点伤害。	##\n【Emerge】:Health 2 damage to target creature or player.		
+110029	旅行诗人	Travel Bard	亚微	Ari	诗人	Minstrel	0	##\n力竭:目标生物获得+0/+1直到回合结束。	##\nExhaust:Target creature gets +0/+1 until end of turn.		
+110030	西丝卡歌咏者	Siska Singer	亚微	Ari	诗人	Minstrel	0	##\n你的回合开始时，治疗自身1点伤害。	##\nAt the end of your turn, health 1 damage by itself.		
+110031	剑舞者	Blade Dancer	亚微	Ari	战士	Warrior	0	##\n每当你获得生命时，剑舞者获得+1/+1。	##\nWhenever you gain life, Blade Dancer gets +1/+1。	亚微族人或许并不是出色的战士，但他们能借助女神的祝福，获得几倍于自身的力量。	0
+110032	西丝卡领唱人	Siska Cantor	亚微	Ari	诗人	Minstrel	0	##\n每当一个生物获得治疗时，你抓一张牌。	##\nWhenever a creature is healed, you draw a card.		0
+110033	皇城护卫	Imperial Guard	亚微	Ari	战士	Warrior	0	##\n每当一个生物获得治疗时，皇城护卫获得+1/+1。	##\nWhenever a creature is healed, Imperial Guard gets +1/+1.	尽管亚微大陆有隔世之墙的保护，但皇城的守卫们仍忠于自己的岗位，防范警惕艾斯的再次入侵。	0
+110034	圣所修行僧	Sanctum Monk	人类	Human	祭司	Priest	0	##\n【显现】:将你墓地中目标领域牌移回你的手牌。	##\n【Emerge】:Return target Domain from your graveyard to your hand.		0
+110035	重型巨弩	Heavy Ballista	造物	Artifact	0	0	0	##\n力竭:对目标前线上的生物造成2点伤害。	##\nExhaust:Deals 2 damage to target creature in battlefront.		0
+110036	祈愿僧	Wish Monk	人类	Human	祭司	Priest	0	##\n每当你使用一张领域牌时，你抓一张牌。	##\nWhenever you use a Domain card, you draw a card.		0
+110037	寂静守卫	Keeper of Silence	亚微	Ari	祭司	Priest	0	##【闪现】\n生物不会触发【显现】技能。	23&##【Flash】\nCreatures don't trigger 【Emerge】 ability.		0
+110038	辉光大天使	Blazing Archangel	天使	Angel	0	0	0	##【飞行】\n每当一个生物获得治疗时，在你的防线上放置一个帝国新兵生物。	##【Flying】\nWhenever a creature is healed, put a Empire Recruit token onto your defence-line.		0
+110039	水手	Sailor	人类	Human	士兵	Soldier	0	##	##	尽量别招惹这些粗鲁的人。	0
+110040	船工	Carpenter	人类	Human	士兵	Soldier	0	##	##	今天他心情很不好，你还是别去招惹他。	0
+110041	千羽城守卫	FeatherCapital Guard	人类	Human	士兵	Soldier	0	##【祝福】	##【Blessing】		0
+110042	酒吧侍女	Bar Maid	人类	Human	0	0	0	##\n【显现】:治疗友方所有生物1点伤害，你获得1点生命。	##\n【Emerge】:Health 1 damage to friendly creatures and you gain 1 life.		0
+110043	守门犬	Gate Hound	野兽	Beast	0	0	0	##【闪现】\n【显现】:将目标友方生物移回你手牌。	##【Flash】\n【Emerge】:Return target friendly creature to your hand.	0	0
+120000	飞羽鸫	Feather Thrush	鸟	Bird	0	0	0	##【飞行】	##【Flying】		
+120001	乱心术士	Vexing Sorcerer	侏儒	Gnome	法师	Mage	0	##\n①，力竭:将对手牌库顶两张牌置于其墓地。	##\n①,Exhaust:Puts the top two cards of opponent's library into graveyard.		
+120002	铁魔像	Steel Golem	造物	Artifact	魔像	Golem	0	##【守护】【警戒】##	##【Guardian】【Vigilance】		
+120003	猫头鹰信使	Owl Messenger	鸟	Bird	0	0	0	##【飞行】\n【死亡】:抓一张牌。	##【Flying】\n【Die】:Draw a card.		
+120004	法师学徒	Mage Apprentice	矮人	Dwarf	法师	Mage	0	##\n【显现】:抓一张牌。	##\n【Emerge】:Draw a card.		
+120005	图书管理员	Librarian	侏儒	Gnome	法师	Mage	0	##\n【显现】:将目标生物移回拥有者的手牌。	##\n【Emerge】:Return target creature to its owner's hand.	“滚出去！图书馆必须保持安静！”	
+120006	情报密探	Information Agent	侏儒	Gnome	法师	Mage	0	##\n每当情报密探对玩家造成战斗伤害，你抓一张牌。	##\nWhenever Information Agent deals combat damage to a player, you draw a card.		
+120007	风龙兽	Wind Drake	龙兽	Drake	0	0	0	##【飞行】【机动2】	##【Flying】【Mobility 2】		
+120008	魔能障壁	Magic Barrier	屏障	Barrier	0	0	0	##【守护】\n③:将魔能障壁移回手牌。	##【Guardian】\n③:Return Magic Barrier to your hand.		
+120009	风元素	Wind Elemental	元素	Element	0	0	0	##【闪现】【飞行】	##【Flash】【flying】		
+120010	捣蛋法师	Disruptive Mage	侏儒	Gnome	法师	Mage	0	##\n力竭:目标生物得到-2/-0直到回合结束。	##\nExhaust:Target creature gets -2/-0 until end of turn.	这群顽童总爱变着法子捉弄人！	
+120011	高塔龙兽	Tower Drake	龙兽	Drake	0	0	0	##【飞行】【机动2】	##【Flying】【Mobility 2】		
+120012	角蜥	Horned Lizard	野兽	Beast	0	0	0	##【伪装】	##【Camouflage】		
+120013	幻法仙灵	Glamer Faerie	妖精	Faerie	0	0	0	##【飞行】【伪装】【机动2】	20&##【Flying】【Camouflage】【Mobility 2】		
+120014	神灯巨灵	Mahamoti Djinn	巨灵	Djinn	0	0	0	22&##【飞行】\n每当你使用一张非生物牌时，友方心灵生物获得+1/+1直到回合结束。	22&##【Flying】\nWhenever you cast a Non-Creature card, friendly Mind creatures get +1/+1 until end of turn.	睿智的法师会懂得如何号令一只巨灵为其效忠。	
+120015	仙灵贵族	Faerie Noble	妖精	Faerie	0	0	0	22&##【闪现】【飞行】\n每当仙灵贵族向对手造成战斗伤害时，敌方所有生物获得-1/-0。\n②:将仙灵贵族移回手牌。	20&##【Flash】【Flying】\nWhenever Faerie Noble deals combat damage to a opponent,enemy creatures get -1/-0.\n②:Return Faerie Noble to your hand.		
+120016	龙智者	Dragon Sage	龙	Dragon	0	0	0	##【飞行】\n【显现】:场上每有一只生物，你便抓一张牌。	##【Flying】\n【Emerge】:Draw a card for each creature on battlefield.		
+120017	奥术大师法利尼斯	Fernis,Arcane Master	人类	Human	法师	Mage	0	22&##【传奇】\n【显现】:随机两个敌方生物移回手牌。\n③:将奥术大师法利尼斯移回手牌。	20&##【Legend】\n【Emerge】:Return two enemy creatures to its owner's hand at random.\n③:Return Fernis, Arcane Master to your hand.		
+120018	闪跃妖精	Blinking Faerie	妖精	Faerie	0	0	0	##【闪现】【飞行】	##【Flash】【Flying】		
+120019	飞翔导师	Fly Tutor	人类	Human	法师	Mage	0	##【飞行】\n【显现】:目标生物获得飞行技能。	##【Flying】\n【Emerge】:Target creature gains 【Flying】.		
+120020	宿舍管理人	Dormitory Manager	巨灵	Djinn	0	0	0	##\n【显现】:将目标生物置于其拥有者牌库顶。	##\n【Emerge】:Put target creature on top of its owner's library.		0
+120021	求知妖精	Learning Faerie	妖精	Faerie	0	0	0	##【飞行】\n每当你抓一张牌时，求知仙子获得+1/+0。	##【Flying】\nWhenever you draw a card, Learning Faerie gets +1/+0.		0
+120022	学院书记	Academy Secretary	亚微	Ari	法师	Mage	0	##【守护】\n③:你抓一张牌。	##【Guardian】\n③:You draw a card.		0
+120023	幻术导师	Illusionist 	精灵	Elf	法师	Mage	0	##\n其他友方心灵的生物+1/+1。\n①，力竭:目标心灵生物【瞬间】获得伪装直到回合结束。	20&##\nOther friendly Mind creatures get +1/+1.\n①，Exhaust:Target Mind creature 【Instant】 gains 【Camouflage】 until end of turn.		0
+120024	诡计师	Guile Mage	侏儒	Gnome	法师	Mage	0	##\n每当你抓一张牌时，将对手牌库顶牌置入墓地。	##\nWhenever you draw a card,puts the top card of opponent's library into graveyard.		0
+120025	幻象墙	Phantom Wall	屏障	Barrier	0	0	0	23&##【守护】\n防止其受到和造成的所有战斗伤害。	##【Guardian】\nPrevent all combat damage that would be dealt to and dealt by it.		0
+120026	神秘学者	Occultist	人类	Human	法师	Mage	0	##\n每当神秘学者受到伤害时，将对手牌库顶一张牌置入墓地。	20&##\nWhenever Occultist is dealt damage, puts the top card of opponent's library into graveyard.		0
+120027	学院空卫	Academy Hoverguard	龙兽	Drake	0	0	0	##【飞行】	##【Flying】		0
+120028	漂游巨灵	Drifting Djinn	巨灵	Djinn	0	0	0	##【飞行】\n①:将漂游巨灵移回手牌。	##【Flying】\n①:Return Drifting Djinn to your hand.		0
+120029	龙长老	Dragon Elders	龙	Dragon	法师	Mage	0	23&##【飞行】\n③:龙长老获得+1/+1，你抓一张牌。	##【Flying】\n③:Dragon Elders gets +1/+1, you draw a card.		0
+120030	镜像法师	Mirror Mage	人类	Human	法师	Mage	0	##\n【显现】:在你的防线上放置一个衍生物，该生物为目标生物的复制品。	##\n【Emerge】:Put a token onto your defence-line that's a copy of target creature.		0
+120031	曲愿巨灵	Bendwish Djinn	巨灵	Djinn	0	0	0	##【飞行】\n每当曲愿巨灵在你的回合攻击时，对手抓一张牌	##【Flying】\nWhenever Misinterpret Wish Djinn attacks in your turn, opponent draw a card.		0
+120032	暴风元素	Storm Element	元素	Element	0	0	0	##【飞行】	##【Flying】		0
+120033	读心大师	Telepath Master	人类	Human	法师	Mage	0	##\n对手以展示手牌的方式进行游戏。	##\nYour opponents play with their hands revealed.		0
+120034	谍报大师福林格斯	Furinges,Spy Master	侏儒	Gnome	法师	Mage	0	##【传奇】【伪装】【闪现】\n每当谍报大师福林格斯对玩家造成战斗伤害，将对手牌库顶一张牌置于你手牌，你抓一张牌。	20&##【Legend】【Camouflage】【Flash】\nWhenever Furinges,Spy Master deals combat damage to a player, puts the top a card of opponent's library into your hand and you draw a card.		0
+120035	巨龟	Giant Tortoise	野兽	Beast	0	0	0	##\n每当巨龟防御时，获得+0/+3直到回合结束。	##\nWhenever Giant Tortoise defense, gets +0/+3 until end of turn.	一般来说这些巨龟都是相当温驯，但偶尔也有倒霉的家伙被咬断手臂的事情发生。	0
+120036	奥术学徒	Arcane Apprentice	人类	Human	法师	Mage	0	##\n每当你使用一张法术或闪咒牌时，奥术学徒获得+1/+1。	##\nWhenever you use a Magic or Flashspell card, Arcane Apprentice gets +1/+1.		0
+120037	启迪巨灵	Djinn Illuminatus	巨灵	Djinn	0	0	0	##【飞行】\n【显现】:你墓地每有一张法术和闪咒牌，启迪巨灵便获得+1/+1。	##【Flying】\n【Emerge】:Djinn Illuminatus gets +1/+1 for each Magic and Flashspell in your graveryard.		0
+120038	书记员	Scrivener	人类	Human	法师	Mage	0	##\n【显现】:将你墓地中目标闪咒牌移回你的手牌。	##\n【Emerge】:Return target Flashspell from your graveyard to your hand.		0
+120039	尖鸣龙兽	Screeching Drake	龙兽	Drake	0	0	0	##【飞行】\n④:消灭自己，对手所有生物获得-1/-0。	##【Flying】\n④:Destroy itself, all enemy creatures get -1/-0.		0
+120040	时间学者奥林	Olin,Chronosavant	人类	Human	法师	Mage	0	##【传奇】\n【显现】:你获得额外的一个回合，并将自己变成年迈的奥林。	##【Legend】\n【Emerge】:You takes an extra turn after this one, and transform itself into Old Olin.		0
+130000	尸鬼复仇者	Ghoul Avenger	僵尸	Zombie	士兵	Soldier	0	##\n【死亡】:随机一个敌方生物获得-1/-1。	##\n【Die】:A enemy creature gets -1/-1 at random.	纵使它们再次死去，也不会忘记对生者的复仇。	
+130001	觅血师	Blood Seeker	吸血鬼	Vampire	0	0	0	##\n【显现】:对手受到2点伤害，你获得2点生命。	##\n【Emerge】:Deals 2 damage to opponent, you gain 2 life.	哪怕只流下一滴鲜血，他也能从千里之外追踪到你。	
+130002	沼泽巨蟒	Swamp Python	野兽	Beast	0	0	0	##\n【显现】:你受到3点伤害。	##\n【Emerge】:Deal 3 damage to Swamp Python.	闯入沼泽巨蟒领地的人，大多已经死无葬身之地。	
+130003	黑暗祭司	Dark Prophet	艾斯	Eis	先知	Prophet	0	##\n其他友方黑暗的生物+1/+1。	##\nOther friendly Dark creatures get +1/+1.	巫术祭司的神智就和他佝偻的身体一样扭曲。	
+130004	暗巷绞杀者	Alley Strangler	艾斯	Eis	杀手	Assasin	0	##\n【显现】:目标生物获得-1/-1直到回合结束。	##\n【Emerge】:Target creature gets -1/-1 until end of turn.	懦夫在未死之前，已身历多次死亡的恐怖了。	
+130005	艾斯刺客	Eis Assasin	艾斯	Eis	杀手	Assasin	0	##【致命】	##【Deadly】	艾斯的暗刃家族培养了无数的暗杀者，就连人类诸国的贵族也是他们的常客。	
+130006	暗鸦女	Female Raven	艾斯	Eis	先知	Prophet	0	##\n【死亡】:对手随机弃掉一张手牌。	##\n【Die】:Opponent discards a card at random.		
+130007	艾斯弓箭手	Eis Archer	艾斯	Eis	射手	Archer	0	##\n每当艾斯弓箭手在你的回合攻击时，对手受到1点伤害。	##\nWhenever Eis Archer attacks in your turn, deal 1 damage to opponent.	我的箭矢已经瞄准了猎物。	
+130008	骷髅掠夺者	Predator Skull	骷髅	Skeleton	战士	Warrior	0	##\n【死亡】:原地放置一个重生的骷髅掠夺者衍生物。	##\n【Die】:Put a Reborn Predator Skull token onto the battlefield in place.	它本该安息直至变成风沙的一部分，但邪恶污染了这具尸体。	
+130009	游荡的幽灵	Wandering Spectre	亡灵	Ghost	0	0	0	##\n【显现】:对手随机一张手牌置于其牌库顶。	##\n【Emerge】:Opponent puts a card from his hand on top of his or her library.	「它们四处游荡，它们纵声合唱。鬼魅们装上弓，拉满弦，刺穿所有正直的灵魂。」	
+130010	暗沼花刺	Darkswamp Thorn	艾斯	Eis	杀手	Assasin	0	##【先攻】【致命】	##【First strike】【Deadly】	美丽的玫瑰总是长满了致命的毒刺。	
+130011	挂颅者	Skullhanger	艾斯	Eis	战士	Warrior	0	##	##	黑暗之中抖动的头颅见证了从生到死的过程。	
+130012	处刑人	Executioner	艾斯	Eis	杀手	Assasin	0	##\n【显现】:目标生物获得-3/-3。	##\n【Emerge】:Target creature gets -3/-3.	死前，你唯一所能铭记的东西就是这副羊骨面具。	
+130013	死亡屠夫	Death Butcher	僵尸	Zombie	战士	Warrior	0	##\n【显现】:消灭目标非黑暗生物。	##\n【Emerge】:Destroy target non-Dark creature.	巫妖王创造了许多邪恶的不死生物，屠夫便是它最得意的作品之一。	
+130014	扭曲的多足者	Twisted Multiped	僵尸	Zombie	士兵	Soldier	0	##\n每当扭曲的多足者在你的回合攻击时，对手受到2点伤害。	##\nWhenever Hugebale Archer attacks in your turn, deal 2 damage to opponent.	它在哀嚎、摇摆，身体变得越来越扭曲，但它再也无法变回人类了。	
+130015	臃肿的屠夫	Bloated Butcher	僵尸	Zombie	战士	Warrior	0	##【吸血】	##【Suckblood】	当一个暴戾的生命身躯如同一座塔楼时，就很少有东西能阻止它了。	
+130016	骨面巨兽	Bonemask Monster	野兽	Beast	0	0	0	##	##	在荣光高原的金字塔下，艾斯人在那训练培养着巨兽，并给它们中的一批戴上面具。	
+130017	哀嚎女妖	Howling Banshee	亡灵	Ghost	0	0	0	##【飞行】\n每当哀嚎女妖对玩家造成战斗伤害，对手随机弃掉一张手牌。	##【Flying】\nWhenever Howling Banshee deals combat damage to a player, opponent discards a card at random.	她低沉、绵长的尖叫声在巷道檐间回荡，令闻者因之酷寒彻骨。	
+130018	拧颅者	Skullwrinier	艾斯	Eis	战士	Warrior	0	##\n你的回合开始时，每个非黑暗生物获得-2/-1直到回合结束。	##\nAt the begin of your turn, each non-Dark creatures get -2/-1 until end of turn.	单手拧下的不只是一个人的头颅，还有一支军队的意志。	
+130019	觅魂人	Soulseeker	艾斯	Eis	先知	Prophet	0	##\n每当一个友方生物死去时，你抓一张牌。	##\nWhenever a friendly creature dies, you draw a card.	尸骸不会说谎，这死亡的过程即是我现在的耳目。	
+130020	死亡记录者	Death Recorder	巫妖	Lich	法师	Mage	0	##\n每当一个生物死去时，对手受到2点伤害，你获得2点生命。	##\nWhenever a creature dies, deal 2 damage to opponent and you gain 2 life.	愚人在世俗中寻找权利、财富，以此满足自己的欲望，而就我追求的欲望，要比这些东西简单得多。	
+130021	憎恨之主	Abomination Lord	僵尸	Zombie	战士	Warrior	0	##\n【显现】:弃掉你的手牌。	##\n【Emerge】:Discard your hand.	它憎恨生命，憎恨世界，憎恨一切，甚至憎恨自己。	
+130022	阿泽拉丝殉道者	Martyr of Aselass	艾斯	Eis	祭司	Priest	0	##\n【死亡】:原地放置一个复活亡者衍生物。	##\n【Die】:Put a Resurrection Dead token onto the battlefield in place.	她们狂热地崇拜着黑暗女神，即使沦为成为祭品，也能很好地为阿尔纳扩充军势。	
+130023	吞天巨蟒	Canopygorger Python	野兽	Beast	0	0	0	22&##\n你的回合开始时，随机消灭一个其他生物。每以此法消灭一个生物，吞天据蟒获得+2/+2。	20&##\nAt the begin of your turn,destroy another creature at random, CryptLord gets +2/+2 for each creature destroyed this way.	有些生物只是提一下也足以让艾斯人不寒而栗，吞天巨蟒无疑就是这一类型。	
+130024	大巫妖阿尔纳	Riena,Highlich	巫妖	Lich	法师	Mage	0	20&##【传奇】【致命】\n每当大巫妖阿尔纳消灭另一个生物时，将一张<重生的骷髅掠夺者>置入你的手牌。\n【死亡】:你获得一张<招魂>。	16&##【Legend】【Deadly】\nWhenever Riena,Highlich destroyed another creature, create a <Reborn Predator Skull> card to your hand.\n【Die】:You gain a <Spiritualism> card.	阿尔纳曾是一名强大的咒术师，他终日沉浸于禁忌的魔法与死亡的艺术之中，但这副随时会消逝的肉体无法承载他那无穷尽的欲望。通过巫妖王的协助，他终于超脱了死亡，成为一名巫妖。	
+130025	堕落骑士图米提	Domitiv,Knightfall	骷髅	Skeleton	骑士	Knight	0	##【传奇】【冲锋】【先攻】\n【死亡】:对手受到X点伤害，X为堕落骑士图米提的攻击力。	20&##【Legend】【Charge】【First strike】\n【Emerge】:【Die】:Deals X damage to opponent, where X is Domitiv,Knightfall's power.	关于惩罚者图米提的最后记载是他单枪匹马闯入恶魔巢穴的英勇故事。如今这位传说中的英雄再次重返人间……	
+130026	战场死灵	War Necromancer	亡灵	Ghost	士兵	Soldier	0	##【老化】	##【Again】		0
+130027	腐食骷髅	Skeleton Scavenger	骷髅	Skeleton	士兵	Soldier	0	##\n每当一个友方生物死亡时，腐食骷髅获得+1/+0。	##\nWhenever a friendly creature dies, Skeleton Scavenger gets +1/+0.		0
+130028	暗影牧师	Shadow Priest	吸血鬼	Vampire	祭司	Priest	0	##【祝福】【吸血】	##【Blessing】【Suckblood】	生前他曾是一位虔诚的拉多娜牧师，如今却成为了黑暗女王的忠实信徒。	0
+130029	吸血鬼骑士	Vampire Knight	吸血鬼	Vampire	骑士	Knight	0	##\n每当对手受到伤害时，吸血鬼骑士获得+1/+1。	##\nWhenever opponent is dealt damage, Vampire Knight gets +1/+1.		0
+130030	幽灵骑士	Ghost Knight	亡灵	Ghost	骑士	Knight	0	##【先攻】【老化】	##【First strike】【Again】	每当暗月升起，它们便在荒野中徘徊。寻找着下一个献给黑暗女神的祭品。	0
+130031	腐臭尸鬼	Noxious Ghoul	僵尸	Zombie	士兵	Soldier	0	##【践踏】\n每个回合结束时，你受到1点伤害。	##【Trample】\nAt the end of each turn, dealt 1 damage to you.		0
+130032	腐化的盗墓者	Corrupt Ghoul	僵尸	Zombie	0	0	0	##\n【显现】:将目标生物从你的墓地置于你的手牌。	##\n【Emerge】:Return target creature card from your graveyard to your hand.	生前盗取陪葬品，如今则在盗取尸骸。	0
+130033	死神仆从	Death Servant	骷髅	Skeleton	法师	Mage	0	##\n【显现】:你抓两张牌并受到2点伤害。	##\n【Emerge】:Draw two cards and dealt 2 damage to you.		0
+130034	暗夜蝙蝠	Dark Night Bat	野兽	Beast	鸟	Bird	0	##【冲锋】【飞行】【老化】	##【Charge】【Flying】【Again】		0
+130035	鲜血术士	Blood Warlock	吸血鬼	Vampire	法师	Mage	0	##【飞行】【吸血】\n每当一个友方生物获得治疗时，对手受到2点伤害。	##【Flying】【Suckblood】\nWhenever a friendly creature is healed, dealt 2 damage to opponent.	鲜血可以品尝，亦可成为施法的重要材料。	0
+130036	永夜阴影	Evernight's Shadow	亡灵	Ghost	0	0	0	##\n【显现】:永夜阴影获得-X/-X，X等于对手的手牌数量。	22&##\n【Emerge】:Evernight's Shadow gets -X/-X, where X is the number of cards in opponent's hand.	我们所有活着的人,都只不过是空幻的影子,虚无的梦。	0
+130037	骸骨巨龙	Bone Dragon	骷髅	Skeleton	龙	Dragon	0	##【飞行】\n【显现】:消灭所有非黑暗生物。	##【Flying】\n【Emerge】:Destroy all non-Dark creatures.	阿尔纳将“古龙顶端”上长眠的古龙转化为邪恶的不死生物，它们亦成为了联军挥之不去的梦魇。	0
+130038	邪卜师	Evil Divining Mage	骷髅	Skeleton	法师	Mage	0	##\n你的回合结束时，所有玩家随机弃掉一张手牌。	##\nAt the end of your turn, each players discards a card at random.	为了维持自己的不死形态，它在每具牺牲者的颅骨中挖掘魔法的奥秘。	0
+130039	行尸	Walking Dead	僵尸	Zombie	士兵	Soldier	0	##【迟缓】	##【Slowly】		0
+130040	饮魂妖	Souldrinker	亡灵	Ghost	0	0	0	##\n你受到3点伤害：饮魂妖获得+1/+2。	##\nDeals 3 damage to you: Souldrinker get +1/+2.		0
+130041	索命妖	Soulclaimer	亡灵	Ghost	0	0	0	##【吸血】【飞行】\n每当另一个生物死去时，你受到2点伤害。	##【Suckblood】【Flying】\nWhenever another creature dies, deals 2 damage to you.		0
+140000	地精投石手	Goblin Slinger	地精	Goblin	射手	Archer	0	##\n【显现】:对目标生物或玩家造成1点伤害。	##\n【Emerge】:Deals 1 damage to target creature or play.		
+140001	愤怒地精	Raging Goblin	地精	Goblin	士兵	Soldier	0	##【冲锋】	##【Charge】		
+140002	地精突击兵	Goblin Stormtrooper	地精	Goblin	士兵	Soldier	0	##【冲锋】\n你的回合结束时，将地精突击兵移回手牌。	22&##【Charge】\nAt the end of your turn, return Goblin Stormtrooper to your hand.		
+140003	兽人萨满	Orc Shaman	兽人	Orc	萨满	Shaman	0	22&##\n每当你使用一张法术或闪咒牌时，兽人萨满便得到+3/+0直到回合结束。	##\nWhenever you use a Magic or Flashspell card, Orc Shaman gets +3/+0 until end of turn.	兽人的萨满很清楚知道如何将直觉愤怒变成狂热的咒语。	
+140004	狂怒的兽人	Raging Orc	兽人	Orc	战士	Warrior	0	##【冲锋】\n【显现】:狂怒的兽人获得+2/+0直到回合结束。	##【Charge】\n【Emerge】:Raging Orc gets +2/+0 until end of turn.	兽人永远在渴望着狩猎。	
+140005	地精破坏者	Goblin Mangler	地精	Goblin	士兵	Soldier 	0	##\n【死亡】:对手法力上限减少①。	##\n【Die】:Opponent lost ① mana limit.		
+140006	烈焰元素	Flame Elements	元素	Element	0	0	0	##【势不可挡】	##【Unstoppable】		
+140007	熔岩元素	Lava Elemental	元素	Element	0	0	0	##【摧毁2】	##【Wreck 2】		
+140008	地精猪骑兵	Goblin Swine-Rider	地精	Goblin	士兵	Soldier 	0	##【践踏】\n每当地精猪骑兵在你的回合攻击时，获得+2/+0直到回合结束。	##【Trample】\nWhenever Goblin Swine-Rider attacks in your turn, it gets +2/+0 until end of turn.		
+140009	攻城巨龙	Siege Dragon	龙	Dragon	0	0	0	##【飞行】【摧毁2】	##【Flying】【Wreck 2】		
+140010	崩岩元素	Rockslide Elemental	元素	Element	0	0	0	22&##\n②:对自己造成造成1点伤害，对随机一个其他生物或玩家造成2点伤害。	##\n②:Deals 1 damage to itself, and deals 2 damage to another creature or player at random.	被这些碎石片砸中，可不是痛一下就能了事。	
+140011	猛掷暴君	Barrage Tyrant	食人魔	Orge	0	0	0	##\n力竭:对目标生物造成3点伤害。	##\nExhaust:Deals 3 damage to target creature.	被它瞄上的猎物无一幸免均被砸成了肉酱。	
+140012	烈焰巨龙	Flame Dragon	龙	Dragon	0	0	0	##【飞行】\n若烈焰巨龙对玩家造成战斗伤害，它对敌方所有生物造成1点伤害。	21&##【Flying】\nWhenever Flame Dragon deals combat damage to a player, it deals 1 damage to each enemy creatures.		
+140013	沙罗曼蛇	Salamander	元素	Element	0	0	0	23&##\n【显现】:对目标生物造成4点伤害。	##\n【Emerge】:Deals 4 damage to target creature.	冒险者的鲁莽之举惊动了这些地底恶魔！	
+140014	烈焰领主	Lord of the Flame	恶魔	Demon	0	0	0	##【先攻】\n力竭:对目标生物或玩家造成2点伤害。	##【First strike】\nExhaust:Deals 2 damage to target creature or play.	自火焰之中诞生的恶魔，地狱之口的守门人。比一般的恶魔更强大和更难应对。	
+140015	大角冲锋兵	Bighorn Clanger	牛头怪	Tauren	战士	Warrior	0	##【冲锋】\n每当己方生物在你的回合攻击时，米陶诺斯向对手造成1点伤害。	##【Charge】\nWhenever a friendly creature attacks in your turn, Bighorn Clanger deals 1 damage to opponent.	牛头怪总饿着肚子上战场。一见到敌人的血，就足以激起它们的噬肉狂怒。	
+140016	血月追猎者	Blood Moon Tracker	艾斯	Eis	战士	Warrior	0	23&##【冲锋】【先攻】\n【显现】:对每位玩家造成1点伤害。	##【Charge】【First strike】\n【Emerge】:Deals 1 damage to each players.	被血月家族盯上的猎物，直至其断气为止，都不会停止追捕。	
+140017	血月祭司	Blood Moon Flamen	艾斯	Eis	先知	Prophet	0	22&##【先攻】\n每当你使用一张法术或闪咒牌时，友方艾斯生物获得+1/+0直到回合结束。	20&##【First strike】\nWhenever you use a Magic or Flashspell, friendly Eis creatures get +1/+0 until end of turn.	当问及需要多强大的力量时，艾斯族人总会毫不犹豫地回答你“更多”！	
+140018	双刃刀客	Twinblade Slasher 	艾斯	Eis	战士	Warrior	0	##【连击】\n每当双刃刀客对玩家造成战斗伤害，获得+1/+1。	##【Double strike】\nWhenever Twinblade Slasher deals combat damage to a player, it gets +1/+1.	他们狂野，致命，手中的双刃酝酿着华丽的死亡；他们迅捷，放纵，就在下一瞬间，你的名字将永远刻在墓碑上。	
+140019	神秘的女族长	Mystic Matriarch	艾斯	Eis	先知	Prophet	0	##【先攻】\n你的回合开始时，将一个鲁莽小恶魔衍生物放置在你的前线上。	##【First strike】\nAt the begin of your turn, put a Reckless Imp token onto your battlefront.	她只是来自艾斯的一个族长，但对亚微人的威胁却犹如一个军团。	
+140020	艾斯统领安杜因	Anndoen,Eis Chief	艾斯	Eis	先知	Prophet	0	18&##【传奇】\n友方其他艾斯获得+1/+1和【连击】技能。\n你的回合开始时，随机对一个敌方生物或玩家造成等同于场上友方艾斯生物数量的伤害。	16&##【Legend】\nOther friendly Eis creatures get +1/+1 and has 【Double strike】.\nAt the begin of your turn, it deals damage equal to the number of friendly Eis to a enemy creature or player at random.		
+140021	地精掷弹兵	Goblin Fireslinger	地精	Goblin	0	0	0	##\n你的回合开始时，随机对其他一个生物或玩家造成1点伤害。	##\nAt the begin of your turn, deals 1 damage to another creature or player at random.		
+140022	耳语密言	WhisperRiddle	魔像	Golem	邪眼	Beholder	0	20&##【传奇】【先攻】\n【显现】:对所有其他生物和玩家造成4点伤害。\n④:对所有其他生物和玩家造成2点伤害。	20&##【Legend】【First strike】\n【Emerge】:Deals 4 damage to all other creatures and players.\n④:Deals 2 damage to all other creatures and players.	两百年前，眼魔长老耳语密言的身体因一场意外和一尊废弃的铁魔像结合在一起，它的大脑和神经系统因为铁离子的渗透而变得迟钝。这是耳语密言无法容忍的，它开始努力寻找如何恢复原来身体的办法。经历了多年的努力，耳语密言通过各种手段才使得它的记忆和思维能力有所好转。	
+140023	地精劫匪	Goblin Robber	地精	Goblin	士兵	Soldier 	0	##	##		
+140024	地精掠夺者	Goblin Marauder	地精	Goblin	士兵	Soldier 	0	##	##		0
+140025	爆炎小鬼	Fire Devilkin	恶魔	Demon	士兵	Soldier 	0	##\n【死亡】:对手受到2点伤害。	##\n【Die】:Deals 2 damage to opponent.		0
+140026	兽人狂战士	Orc Berserker	兽人	Orc	战士	Warrior	0	##【暴击】	##【Crit】		0
+140027	浴血斗士	Bloodsoaked Champion	艾斯	Eis	战士	Warrior	0	##\n每当你受到伤害时，浴血斗士获得+1/+0。	##\nWhenever you get damage,Bloodsoaked Champion gets +1/+0.		0
+140028	火热地狱犬	Fiery Hellhound	恶魔	Demon	野兽	Beast	0	21&##\n你的回合开始时，对所有其他生物和玩家造成1点伤害。\n【死亡】:对所有其他生物和玩家造成1点伤害。	21&##\nAt the begin of your turn,deals 1 damage to all other creatures and players.\n【Die】:deals 1 damage to all other creatures and players.		0
+140029	狂热战呼者	Fanatic Warcaller	艾斯	Eis	萨满	Shaman	0	##\n【显现】:目标生物移至前线。	##\n【Emerge】:Target creature move to battlefront.		0
+140030	幼龙	Dragon Whelp	龙	Dragon	0	0	0	23&##【飞行】\n①:幼龙获得+1/+0直到回合结束。	##【Flying】\n①:Dragon Whelp gets +1/+0 unit end of turn.		0
+140031	嗜血食人魔	Bloodthirst Orge	食人魔	Orge	0	0	0	##\n每当嗜血食人魔对玩家造成战斗伤害，获得+1/+0。	##\nWhenever Bloodthirst Orge deals combat damage to a player, gets +1/+0.		0
+140032	地狱鞭挞者	Hell Biantal	恶魔	Demon	法师	Mage	0	##\n每当你使用一张法术或闪咒牌时，地狱鞭挞者向对手造成2点伤害。	##\nWhenever you use a Magic or Flashspell, Hell Biantal deals 2 damage to opponent.		0
+140033	暴乱恶魔	Riot Devil	恶魔	Demon	0	0	0	##【暴击】	##【Crit】	当它到来时，混乱四起。当它离开时，哀嚎四野。	0
+140034	疯狂先知	Mad Prophet	人类	Human	祭司	Priest	0	##\n力竭:你抓一张牌，然后随机弃掉一张牌。	##\nExhaust:You draw a card, then discards a card at random.		0
+140035	艾斯掠夺者	Ace Marauders	艾斯	Eis	战士	Warrior	0	##\n对手每使用一张牌，艾斯掠夺者获得+1/+1。	##\nWhenever oppenent use a card, Ace Marauders gets +1/+1.	无论是繁华的都市，还是偏远的村落，都成为了艾斯掠夺的对象，无一幸免。	0
+140036	蛮荒战酋长	Wild Warchief	艾斯	Eis	战士	Warrior	0	##【暴击】\n友方艾斯获得【暴击】技能。	26&##【Crit】\nFriendly Eis creatures has 【Crit】.		0
+140037	地狱穿刺者	Hell Impaler	恶魔	Demon	0	0	0	##\n力竭:对目标生物或玩家造成等同于其攻击力的伤害。	##\nExhaust:Deals damage equal its power to the target creature or play.	这些嗜血的恶魔喜欢用长矛将俘虏穿刺挂起，并以此为乐。	0
+140038	龙峰残虐者	DragonPeak Hellkite	龙	Dragon	0	0	0	##【飞行】【横扫】	##【Flying】【Sweep】	哪怕是最英勇无畏的战士，在巨龙眼中，也只是一顿美餐。	0
+140039	雷魇	Thundermare	恶魔	Demon	元素	Element	0	##【冲锋】【践踏】\n回合结束时，消灭自己。	##【Charge】【Trample】\nAt the end of turn, destroy itself.		0
+140040	地狱领主	Hell Lord	恶魔	Demon	0	0	0	##【飞行】\n①:友方生物获得+1/+0直到回合结束。	##【Flying】\n①:Fridenly creatures get +1/+0 unit end of turn.		0
+140041	边境掠夺者	Borderland Marauder	艾斯	Eis	战士	Warrior	0	##\n你的回合开始时，边境掠夺者获得+2/+0。	##\nAt the begin of your turn,Borderland Marauder gets +2/+0.		0
+140042	龙蛋	Dragon Egg	龙	Dragon	0	0	0	##【警戒】【守护】\n【死亡】:原地放置一个幼龙衍生物。	##【Vigilance】【Guardian】\n【Die】:Put a Dragon Whelp token onto the battlefield in place.		0
+150000	共生树妖	Symbiotic Treant	树妖	Treant	德鲁伊	Druid	0	##\n【死亡】:原地放置一个树精幼苗衍生物。	##\n【Die】:Put a Treefolk Seedlings token onto the battlefield in place.		
+150001	精灵哨兵	Elf Sentinels	精灵	Elf	战士	Warrior	0	##\n【显现】:你抓一张牌。	##\n【Emerge】:You draw a card.	他们就如同森林的耳目，你的一举一动都逃不过他们的双眼。	
+150002	德鲁伊长者	Druid Elder	精灵	Elf	德鲁伊	Druid	0	##\n【显现】:你的法力上限增加①。\n【死亡】:你的法力上限减少①。	22&##\n【Emerge】:You mana limit Add ①.\n【Die】:You mana limit Sub ①.		
+150003	森林歌者	Sylvan Singer	精灵	Elf	德鲁伊	Druid	0	##\n你的回合开始时，随机一个友方生物获得+1/+1直到回合结束。	##\nAt the begin of your turn, a creature gets +1/+1 at random until end of turn.		
+150004	树冠斥候	Canopy Scout	精灵	Elf	射手	Archer	0	##【制空】	##【Reach】		
+150005	森林守卫	Sylvanskeeper	精灵	Elf	战士	Warrior	0	##\n每当森林守卫防御时，获得+2/+2直到回合结束。	##\nWhenever Sylvanskeeper defense, gets +2/+2 until end of turn.	每踩断一根树枝，就敲断入侵者一根骨头！	
+150006	精灵猎手	Elvish Hunter	精灵	Elf	射手	Archer	0	##【制空】【致命】	##【Reach】【Deadly】		
+150007	板甲龙兽	Plated Drake	龙兽	Drake	0	0	0	##【护盾1】	##【Shield 1】		
+150008	巨猿	Giant Ape	野兽	Beast	0	0	0	##【势不可挡】	##【Unstoppable】		
+150009	暴怒熊怪	Raging Furbolg	野兽	Beast	0	0	0	##	##		
+150010	屠角野猪	Slaughterhorn Boar	野兽	Beast	0	0	0	##【践踏】	##【Trample】		
+150011	巨大甲虫	Goliath Beetle	昆虫	Insect	0	0	0	##	##		
+150012	三角龙兽	Triceratops	龙兽	Drake	0	0	0	##	##		
+150013	致命毒蜂	Deadly Swarm	昆虫	Insect	0	0	0	##【飞行】【致命】	##【Flying】【Deadly】		
+150014	远古树龙	Ancient Dryosaurus	龙兽	Drake	0	0	0	##【践踏】\n【显现】:你获得6点生命。\n【死亡】:你获得6点生命。	##【Trample】\n【Emerge】:You gain 6 life.\n【Die】:You gain 6 life.	它的胃口大得可怕，一切会动的东西都会被吞进它的肚子里。	
+150015	云冠树灵	Cloudcrown Dryad	树妖	Treant	战士	Warrior	0	##【制空】	##【Reach】		
+150016	雄伟麋鹿	Great Elk	野兽	Beast	0	0	0	##	##		
+150017	扑击猎豹	Pouncing Jaguar	野兽	Beast	0	0	0	##【闪现】	##【Flash】		
+150018	牧树人	Ents	树妖	Treant	战士	Warrior	0	##\n②，力竭:牧树人获得+1/+1。	##\n②,Exhaust:Ents gets +1/+1.	牧树人是巨大的行走着的树木，它们在森林中徘徊了无数的年代。	
+150019	大自然的化身	Nature Incarnation	树妖	Treant	德鲁伊	Druid	0	22&##\n④，力竭:消灭友方另一个生物，在你的防线上放置一个大自然的化身衍生物。	20&##\n④,Exhaust:Destroy another friendly creature then put a Nature Incarnation token onto your defence-line.	对尊重树林的人，尼雅娜亚的奖励方式就是将他变为树林的一部分。	
+150020	幻月巡林客	Lunawood Ranger	精灵	Elf	战士	Warrior	0	##\n每当你使用一张自然卡牌时，幻月巡林客获得+1/+1。	##\nWhenever you use a Nature card, Lunawood Ranger gets +1/+1.	通过幻月的指引，他们便能听到女神的声音，聆听到自然的呼唤。	
+150021	幻月林长者	Lunawood Elder	精灵	Elf	德鲁伊	Druid	0	##\n力竭:目标生物获得+3/+3直到回合结束。	##\nExhaust:Target creature get +3/+3 until end of turn.	「只要你对自然心存敬畏，那么你也能获得大自然的祝福」	
+150022	橡木大使	Ambassador Oak	树妖	Treant	战士	Warrior	0	##【警戒】\n友方其他树妖和精灵生物获得+1/+1且具有【践踏】技能。	21&##【Vigilance】\nOther friendly Treant and Elf creatures get +1/+1 and have 【Trample】.	树妖与精灵千年以前便缔结了友好盟约。一般较大规模的精灵都市都会安排一名大使。	
+150023	橡木保卫者	Oaken Protector	树妖	Treant	战士	Warrior	0	##【闪现】\n每个回合结束时，治疗自己1点伤害。	##【Flash】\nAt the end of each turn, heal 1 damage by itself.		
+150024	魔力吞噬者	Mana Devourer	蛮族	Barbarian	萨满	Shaman	0	22&##\n【显现】:消灭所有领域，每以此法消灭一个领域，魔力吞噬者便获得+1/+1。	21&##\n【Emerge】:Destroy all domains.Mana Devourer gets +1/+1 for each domain destroyed this way.		
+150025	精灵神射手	Elf Archer	精灵	Elf	射手	Archer	0	##【制空】\n【显现】:消灭目标领域。	##【Reach】\n【Emerge】:Destroy target domain		
+150026	塞拉巨兽	Serra Beast	野兽	Beast	0	0	0	23&##\n回合结束时，塞拉巨兽获得+1/+1。	##\nAt the end of turn,Serra Beast gets +1/+1.	它的坚硬身躯阻挡了无数的掠食者，巨兽只需轻轻一翻，便又能获得一顿美味的大餐。	
+150027	丛林守护神奈玛	Naima,Grove Guardian	树妖	Treant	德鲁伊	Druid	0	##【传奇】【践踏】\n每个回合开始时，其他友方生物获得+1/+1。	##【Legend】【Trample】\nAt the beginning of each turn, other friendly creatures get +1/+1.	千万年以来，奈玛只是扎根于黯夕之林的深处沉睡。直至亡灵入侵，惊醒了这位森林的守护神。	
+150028	猎手柳德米拉	Lyudmila,Ranger	精灵	Elf	射手	Archer	0	##【传奇】【伪装】【致命】\n③，力竭:对目标生物或玩家造成1点伤害。	22&##【Legend】【Camouflage】【Deadly】\n③,Exhaust:Deals 1 damage to target creature or play.		
+150029	育苗树妖	Seedcradle Treant	树妖	Treant	德鲁伊	Druid	0	##\n【显现】:在防线召唤一个树精幼苗。	##\n【Emerge】:Put a Treefolk Seedlings token onto your defence-line.		
+150030	育苗守卫	Cradle Guard	树妖	Treant	战士	Warrior	0	##\n【显现】:你每操控一个树妖，育苗守卫便获得+1/+1。	##\n【Emerge】:Cradle Guard gets +1/+1 for each friendly Treant.		0
+150031	老橡木	Old Oak	树妖	Treant	战士	Warrior	0	##【伪装】	##【Camouflage】		0
+150032	橡树哨兵	Sentry Oak	树妖	Treant	战士	Warrior	0	##【势不可挡】【制空】	##【Unstoppable】【Reach】		0
+150033	老韧皮树	Older Dourbark	树妖	Treant	战士	Warrior	0	##【护盾3】	##【Shield 3】		0
+150034	美愿祈者	Wellwisher	精灵	Elf	德鲁伊	Druid	0	##\n力竭:每存在一个友方精灵，你便获得1点生命。	##\nExhaust:You gain 1 life for each friendly Elf.	「不去聆听贪婪之声，你便能将一人之惠化为万人之福。」	0
+150035	绿吟者	Green Singer	精灵	Elf	德鲁伊	Druid	0	##\n④，力竭:你的法力上限增加①。	##\n④，Exhaust:You mana limit Add ①.	绿吟者行踪诡秘, 变化无常, 他们是自然界最让人摸不透的歌者。	0
+150036	高位德鲁伊	Archdruid	精灵	Elf	德鲁伊	Druid	0	##\n力竭:将目标生物从你的墓地置于你的牌库顶。	##\nExhaust:Put target creature on top of your library from your graveyard.	他知晓数个世纪以来诞生的每个精灵名字。更重要的是，他们全都认识他。	0
+150037	橡木先导者	Oak Vanguard	树妖	Treant	德鲁伊	Druid	0	##【践踏】\n【显现】:如果你牌库顶牌是生物，则将其放置于你的防线上。	21&##【Trample】\n【Emerge】:If the top card of your library it's a creature, put it onto your defence-line.		0
+150038	天网编织者	Skysnare Weaver	昆虫	Insect	0	0	0	##【制空】\n②:对所有具飞行技能的生物造成2点伤害。	##【Reach】\n②:Deals 2 damage to all creatures with flying.		0
+150039	蜂后	Hornet Queen	昆虫	Insect	0	0	0	##【飞行】【致命】\n【显现】:在你的防线上放置4只致命毒蜂。	##【Flying】【Deadly】\n【Emerge】:Put four Deadly Swarm tokens onto your defence-line.		0
+150040	奇妙种子	Marvellous Seed	树妖	Treant	0	0	0	##\n【显现】:随机一个友方生物获得+1/+1。	##\n【Emerge】:A creature gets +1/+1 at random.	纵使一棵参天巨木，也是从一粒不起眼的种子开始成长。	0
+150041	潜行猎豹	Stalking Panthers	野兽	Beast	0	0	0	##【伪装】	##【Camouflage】		0
+150042	战象	War Elephant	野兽	Beast	0	0	0	##【践踏】\n【显现】:目标生物获得【践踏】直到回合结束。	##【Trample】\n【Emerge】:Target creature gains 【Trample】 unit end of turn.		0
+150043	躁动狂象	Rabid Elephant	野兽	Beast	0	0	0	##【践踏】\n【显现】:你的法力上限减少①。	##【Trample】\n【Emerge】:You mana limit Sub ①.		0
+150044	护门学徒	Gatekeeper Initiate	精灵	Elf	德鲁伊	Druid	0	##\n【死亡】:你抓一张牌。	##\n【Die】:You draw a card.	他们遵从护门者德鲁伊的教导，致力修复以及封印各种位面裂缝。	0
+150045	幼苗新兵	Treelet Recruit	树妖	Treant	战士	Warrior	0	##\n⑦,力竭:将自己变成橡木斗士。	##\n⑦,Exhaust:Transform itself into Oakgnarl Warrior.	不要小瞧这些树苗，终有一天它们也会长成参天巨树。	0
+150046	橡木斗士	Oakgnarl Warrior	树妖	Treant	战士	Warrior	0	##【势不可挡】【践踏】	##【Unstoppable】【Trample】		0
+150047	眼镜蛇王	King Cobra	野兽	Beast	0	0	0	##【冲锋】【致命】	##【Charge】【Deadly】		0
+150048	幻月林守卫	Lunawood Guard	野兽	Beast	0	0	0	##【闪现】\n【显现】:目标生物和自己获得+2/+2直到回合结束。	##【Flash】\n【Emerge】:Target creature and itself gets +2/+2 unit end of turn.		0
+150049	幻月祈愿者	Lunawood Wisher	精灵	Elf	德鲁伊	Druid	0	##\n【显现】:将一张<树精幼苗>置入你的手牌。\n②:消灭自己，你抓一张牌。	##\n【Emerge】:Create a <Treefolk Seedlings> card to your hand.\n②:Destroy itself and you draw a card.		0
+150050	幻月林隐士	Lunawood Recluse	精灵	Elf	德鲁伊	Druid	0	##\n每当你召唤一只野兽生物时，你抓一张牌。	##\nWhenever you summon a Beast creature card, you draw a card.		0
+190000	帝国新兵	Empire Recruit	人类	Human	士兵	Soldier 	0	##【衍生物】	##【Token】		
+190001	步兵	Infantry	人类	Human	士兵	Soldier 	0	##【衍生物】	##【Token】		
+190002	精锐骑士	Elite Knights	人类	Human	骑士	Knight	0	##【衍生物】	##【Token】		
+190003	牢固的大门	Solid Gate	造物	Artifact	0	0	0	##【衍生物】【守护】	##【Token】【Guardian】		
+190004	树精幼苗	Treefolk Seedling	树妖	Treant	战士	Warrior	0	##【衍生物】	##【Token】		
+190005	地精劫匪	Goblin Robber	地精	Goblin	士兵	Soldier 	0	##【衍生物】	##【Token】		
+190006	大自然的化身	Incarnation of Nature 	树妖	Treant	德鲁伊	Druid	0	22&【衍生物】##\n④，力竭:消灭友方另一个生物，在你的防线上放置一个大自然的化身衍生物。	20&【Token】##\n④,Exhaust:Destroy another friendly creature then put a Nature Incarnation token onto your defence-line.		
+190007	愤怒地精	Raging Goblin	地精	Goblin	士兵	Soldier	0	##【衍生物】【冲锋】	##【Token】【Charge】		0
+190008	绵羊	Sheep	野兽	Beast	0	0	0	##【衍生物】	##【Token】		0
+190009	毒蜂	Swarm	昆虫	Insect	0	0	0	##【衍生物】【飞行】【致命】	##【Token】【Flying】【Deadly】		0
+190010	鲁莽小恶魔	Reckless Imp	恶魔	Demon	0	0	0	##【衍生物】【冲锋】\n回合结束时，消灭自己。	##【Token】【Charge】\nAt the end of turn, destroy itself.		0
+190011	重生的骷髅掠夺者	Reborn Predator Skull	骷髅	Skeleton	战士	Warrior	0	##【衍生物】	##【Token】		0
+190012	复活亡者	Resurrection Dead	僵尸	Zombie	士兵	Soldier	0	##【衍生物】\n【死亡】:原地放置一个骷髅勇士衍生物。	##【Token】\n【Die】:Put a Skeleton Warrior token onto the battlefield in place.		0
+190013	骷髅勇士	Skeleton Warrior	骷髅	Skeleton	战士	Warrior	0	##【衍生物】	##【Token】		0
+190014	圣武士马高	Mago,Paladin	人类	Human	圣武士	Paladin	0	##【传奇】【护盾7】	##【Legend】【Shield 7】	“任何制度都需要秩序的保障，而我们就是秩序的最有力保障！”	
+190015	行尸	Walking Dead	僵尸	Zombie	士兵	Soldier	0	##【衍生物】【迟缓】	##【Token】【Slowly】		0
+190016	幼龙	Dragon Whelp	龙	Dragon	0	0	0	##【衍生物】【飞行】\n①:幼龙获得+1/+0直到回合结束。	##【Token】【Flying】\n①:Dragon Whelp gets +1/+0 unit end of turn.		0
+190017	年迈的奥林	Old Olin	人类	Human	法师	Mage	0	##【传奇】【迟缓】	##【Legend】【Slowly】		0
+190018	乌鸦	Crow	鸟	Bird	0	0	0	##【飞行】	##【Flying】	0	0
+190019	命运旅团 萨琳	Sarin,Fate Brigade	人类	Human	骑士	Knight	0	##【传奇】【先攻】【连击】	##【Legend】【First strike】【Double strike】		
+190020	恶意稻草人	Malice Scarecrow	造物	Artifact	稻草人	Scarecrow	0	##\n恶意稻草人不会受到战斗伤害。	##\nPrevent all combat damage to itself.		
+190021	闪电障壁	Lightning Barrier	屏障	Barrier	0	0	0	##【警戒】【守护】【伪装】\n你的回合开始时，对对手造成1点伤害。\n【死亡】:你受到30点伤害。	##【Vigilance】【Guardian】【Camouflage】\nAt the begin of your turn, deals 1 damage to opponent.\n【Die】:Deals 30 damage to you.	0	0
+190022	火墙	Wall of Fire	屏障	Barrier	0	0	0	##【警戒】【守护】\n你的回合开始时，随机对敌方生物造成1点伤害。	##【Vigilance】【Guardian】\nAt the begin of your turn, deals 1 damage to a enemy creature at random.	0	0
+190023	阻御网	Resistance Web	屏障	Barrier	0	0	0	##【伪装】【警戒】【守护】\n每当对手使用一张卡牌时，反击对手法术区随机一张卡牌。	##【Camouflage】【Vigilance】【Guardian】\nWhenever oppenent use a card, counter a card in the Spell Area by opponent at random.	0	0
+190024	命运旅团 芭尔珊	Balshan,Fate Brigade	艾斯	Eis	杀手	Assasin	0	##【传奇】【伪装】【致命】	##【Legend】【Camouflage】【Deadly】	0	0
+190025	命运旅团 莉亚	Leah,Fate Brigade	亚微	Ari	诗人	Minstrel	0	##【传奇】【祝福】\n你的回合开始时，随机友方生物获得【飞行】直到回合结束。	##【Legend】\nAt the begin of your turn, a random friendly creaturn gains 【Flying】 until end of turn.	0	0
+190026	命运旅团 克丽缇娜	Christina,Fate Brigade	精灵	Elf	法师	Mage	0	##【传奇】\n力竭:治疗目标生物造成1点伤害。	##【Legend】\nExhaust:Health 1 damage to target creature.	0	0
+190027	命运旅团 石齿	Rocktooth,Fate Brigade	兽人	Orc	战士	Warrior	0	##【传奇】【践踏】【护盾1】	##【Legend】【Trample】【Shield 1】	0	0
+190028	安全装置	Security System	造物	Artifact	0	0	0	##【警戒】【守护】\n不能被玩家指定为目标。\n你的回合开始时，你获得7点生命。	##【Vigilance】【Guardian】\nCan't be targeted by players.\nAt the begin of your turn, you gaim 7 life.	0	0
+190029	0	0	0	0	0	0	0	0	0	0	0
+200000	先知之眼	Prophet's Eye	领域	Domain	0	0	薛博	该领域上的生物获得~\n在你的回合结束时，每个玩家抓一张牌。	The creature on the domain has:~\nAt the end of your turn, each players draws a card.	“预言不是决定，而是引导。”\n                          ——魔兰迪亚的信条	
+210000	神圣信念	Divine Confidence	领域	Domain	0	0	団長！				
+210001	保护光环	Protective Aura	领域	Domain	0	0	Jacko Suen				
+210002	骑士精神	Knighthood	领域	Domain	0	0	CCF	23&该领域上的生物获得【先攻】技能。	The creature gains 【First strike】 on the Domain.		
+210003	治愈光环	Healing Aura	领域	Domain	0	0	Jacko Suen	回合结束时，治疗该领域上的生物1点伤害。	At the end of turn, health 1 damage to the creature on the Domain.		
+210004	训练营	Training Camp	领域	Domain	0	0	BigDog	该领域上的生物获得~\n你的回合开始时，在你的防线上放置一个帝国新兵衍生物。	The creature on the domain has~\nAt the begin of your turn, put a Empire Recruit token onto your defence-line.		
+210005	骑士之荣光	Glory of Knight	领域	Domain	0	0	Lp	23&骑士之荣光只能放置在前线阵地上。\n该领域上的生物获得~\n所有友方秩序生物+1/+1。	20&Glory of Knight can only put in battlefront.\nThe creature on the domain has~\nFriendly Order creatures get +1/+1.	“英勇，谦逊，公正，仁慈，荣誉，诚信，牺牲”\n                          ——正义之神麦里巴洛亚的信条	
+210006	堡垒	Fortress	领域	Domain	0	0	KEBIN	23&该领域上的生物获得【护盾2】技能。	The creature gains 【Shield 2】 on the Domain.		
+210007	防御姿态	Defensive Stance	领域	Domain	0	0	ISHTARIS	该领域上的生物获得~\n每当该生防御时，获得-4/+4直到回合结束。	20&The creature on the domain has~\nWhenever the creature defense, gets -4/+4 until end of turn.		
+220000	慧眼	Insight	领域	Domain	0	0	POA	该领域上的生物获得~\n每当该生物对玩家造成战斗伤害，你抓一张牌。	The creature on the domain has~\nWhenever the creature deals combat damage to a player, you draw a card.		
+220001	观星	Stargazing	领域	Domain	0	0	HOON	当观星进场时，你抓一张牌。	When Stargazing enters the battlefield, you draw a card.		
+220002	乘风而起	Fly With the Wind	领域	Domain	0	0	PHON	该领域上的生物获得~\n所有友方生物获得【飞行】技能。	The creature on the domain has~\nFriendly creatures has 【Flying】.		
+220003	空中优势	Air Superiority	领域	Domain	0	0	団長！	23&该领域上的生物获得~\n每当该生物在你的回合攻击时，友方所有【飞行】生物获得+1/+0。	The creature on the domain has~\nWhenever it attacks in your turn, friendly creatures with 【Flying】 get +1/+0.		
+220004	虚幻形态	Illusory Form	领域	Domain	0	0	ERON	23&该领域上的生物获得【伪装】技能。	The creature has 【Camouflage】 on the Domain.		
+220005	心灵侵蚀	Mind Erosion	领域	Domain	0	0	ERON	该领域上的生物获得~\n每当该生物受到伤害时，将对手牌库顶的三张牌置入其坟墓场。	20&The creature on the domain has~\nWhenever the creature is dealt damage, opponent puts the top three cards of his library into graveyard.		
+230000	不洁之力	Unholy Strength	领域	Domain	0	0	ERON				
+230001	黑暗之力	Dark Strength	领域	Domain	0	0	BOOTA	该领域上的生物获得~\n在你的回合开始时，该生物受到2点伤害。	The creature on the domain has~\nAt the begin of your turn, deals 2 damage to this creature.		
+230002	鲜血祭坛	Altar of Blood	领域	Domain	0	0	ROH YOUNG HYUN	鲜血祭坛只能放置在己方防线上。\n该领域上的生物获得~\n【死亡】:对手受到X点伤害，X为该生物的攻击力。	19&Altar of Blood can only be put in your defence-line.\nThe creature on the domain has~【Die】:Deals X damage to opponent, where X is its power.		
+230003	死亡盛宴	Feast of Dead	领域	Domain	0	0	ROH YOUNG HYUN	该领域上的生物获得~\n所有僵尸生物获得+1/+1。\n每当一个敌方生物死去时，在你的防线上放置一个行尸衍生物。	20&The creature on the domain has~\nAll Zombies get +1/+1.\nWhenever a enemy creature dies, put a Walking Dead token onto your defence-line.	「它们蹒跚，它们游荡。它们尽情舞蹈，它们高声歌唱。无论是生灵还是死者，都被邀入了这场疯狂的盛宴。」	
+230004	邪恶饥渴	Vicious Hunger	领域	Domain	0	0	AOBTD	当邪恶饥渴进场时，对手受到1点伤害，你获得1点生命。	When Vicious Hunger enters the battlefield, deals 1 damage to opponent and you gain 1 lfie.		
+240000	狂热	Frenetic	领域	Domain	0	0	Jacko Suen	该领域上的生物获得~\n每当该生物在你的回合攻击时，获得+2/+0和【先攻】直到回合结束。	22&The creature on the domain has~\nWhenever it attacks in your turn, it gets +2/+0 and gains 【First strike】 until end of turn.		
+240001	杀戮领域	Killing Field	领域	Domain	0	0	Jacko Suen	该领域上的生物获得【连击】技能。	The creature on the domain has~【Double strike】.		
+240002	炽热领域	Blazing Field	领域	Domain	0	0	ROH YOUNG HYUN	当炽热领域进场时，对所有敌方生物造成1点伤害。	When Blazing Field enters the battlefield, deals 1 damage to all emeny creatures.		
+240003	火焰之力	Power of Fire	领域	Domain	0	0	GHARLY	该领域上的生物获得~\n每当该生物在你的回合攻击时，随机对一个敌方生物或玩家造成1点伤害。	The creature on the domain has~\nWhenever the creature attacks in your turn, it deals 1 damage to a creature or opponent at random.		
+250000	橡树之力	Might of Oaks	领域	Domain	0	0	PtcZ				
+250001	空中防卫	Air defense	领域	Domain	0	0	団長！	该领域上的生物获得~\n所有友方生物具有【制空】技能。	The creature on the domain has~\nFriendly creatures gain 【Reach】.		
+250002	大自然的庇护	Shelter of Nature	领域	Domain	0	0	BigDog	该领域上的生物获得~\n对手回合开始时，防止友方自然生物本回合受到的所有战斗伤害。	20&The creature on the domain has~\nAt the begin of opponent's turn,prevent all combat damage that would be dealt to friendly Nature creatures in this turn.		
+260000	炙热冥思	Searing Meditation	领域	Domain	0	0	ERON	该领域上的生物获得~\n每当你获得生命时，随机对敌方生物或玩家造成1点伤害。	The creature on the domain has~\nWhenever you gain life, deals 1 damage to a enemy creature or opponent at random.	0	0
+260001	狩猎领域	Hunting Domain	领域	Domain	0	0	HAUN	该领域上的生物获得~\n友方精灵具有【先攻】和【致命】技能。	The creature on the domain has~\nFriendly Elves gain 【First strike】 and 【Deadly】.	0	0
+260002	黄金石棺	Gold Sarcophagus	领域	Domain	0	0	TomPrante	该领域上的生物不能被玩家指定为目标。\n回合结束时，该领域上的生物恢复所有生命。	The creature Can't be targeted by players on the Domain.\nAt the end of turn, the creature recovery all life on the Domain.	0	0
+300000	封魔	Magic Seal	法术	Spell	0	0	泽羊	封印目标生物。	Seal target creature.		
+300001	脆弱协议	Fragile Agreement	法术	Spell	0	0	PANCHOK	你抓一张牌，然后对手获得一张<脆弱协议>。	You draw a card then create a <Treefolk Seedlings> card to opponent's hand.		
+310000	赐福	Blessed	法术	Spell	0	0	HAUN	目标生物获得【祝福】。	Target creature gains 【Blessing】.		
+310001	集结部队	Rally the Forces	法术	Spell	0	0	団長！	23&在你的防线上放置两个步兵衍生物。	Put two Infantry tokens onto your defence-line.		
+310002	神之审判	Judgement of God	法术	Spell	0	0	CCF	消灭所有生物。	Destroy all creatures.	愿海浪欣然鼓掌，山岭在主面前唱出乐歌，因为他正要以正义审判全世界，以公平审判地上的万族。	Let the waves readily applauded, mountains in the presence of the Lord sing songs, because he was about to the justice around the world and to the peoples of the fair trial.
+310003	军队召集	Military call	法术	Spell	0	0	Liangxx	23&在你的防线上放置六个步兵衍生物。	Put six Infantry tokens onto your defence-line.		
+310004	光之箭	Light Arrows	法术	Spell	0	0	PHON	对目标前线上的生物造成3点伤害。	Deals 3 damage to target creature in battlefront.		
+310005	银月祈愿	Silver Moon's Wish	法术	Spell	0	0	HAUN	23&场上每有一个友方生物，你便获得3点生命。使用后将银月祈愿洗入你的牌库。	You gains 3 life for each friendly creature on the battlefield.Shuffle Silver Moon's Wish into your library.		
+320000	智慧术	Intelligent	法术	Spell	0	0	GHARLY	抓两张牌。	Draw two cards.		
+320001	起飞	Take off	法术	Spell	0	0	KWAK JAEPIL	目标生物获得【飞行】。	Target creature gains 【Flying】.		
+320002	冰冻术	Frozen	法术	Spell	0	0	ERON	目标生物下回合不能前进。\n抓一张牌。	Target creature can't move forward in next turn.\nDraw a card.		
+320003	咒语恢复	Spell Recovery	法术	Spell	0	0	MINARI	将目标闪咒牌从你的墓地移回手牌。	Return target Flashspell card from your graveyard to your hand.		
+320004	时间疾行	Temporal Velocity	法术	Spell	0	0	DALYK	目标生物获得【机动3】。	22&Target creatures gains 【Mobility 3】.		
+320005	贿赂	Bribery	法术	Spell	0	0	RON YOUNG HYUN	将目标生物置入你的手牌。	Put target creature from battlefield to your hand. 		
+320006	多重镜像	Multiple Mirror	法术	Spell	0	0	MINARL	在你的防线上放置三个衍生物进场，这些生物为目标生物的复制品。	Put three tokens onto your defence-line that's a copy of target creature.		
+320007	形态转换	Body Transform	法术	Spell	0	0	ISHTARIS	22&消灭目标生物，该生物操控者从牌库随机选择一个生物放置于其防线上。	Destroy target creature.Its controller choose a creature card from his library at randomm puts to the defence-line.		
+320008	时间延展	Time Stretch	法术	Spell	0	0	Kate Voss	如果你的牌库顶是一张闪咒牌，你获得额外的一个回合。	If the top card of your library it's a Flashspell, you takes an extra turn after this one.		
+320009	群体变形术	Mass Polymorph	法术	Spell	0	0	MazertYoung	将所有生物变成羊。	Transforms all creatures into sheep.		
+320010	蓝月祈愿	Blue Moon's Wish	法术	Spell	0	0	GHARLY	你抓两张牌且对手抓一张牌。使用后将蓝月祈愿洗入你的牌库。	You draw 2 cards and opponent draw a card. Shuffle Blue Moon's Wish into your library.		
+320011	软弱心灵	Fragile Soul	法术	Spell	0	0	ISHTARIS	将目标玩家牌库顶七张牌置于其墓地。	Target player puts the top seven cards of his library into graveyard.		
+330000	快速老化	Rapid Aging	法术	Spell	0	0	J.NERO	目标生物获得-2/-2。	Target creature gets -2/-2.	你说你的愿望是老死？很好，我这就成全你。	
+330001	逼从	Duress	法术	Spell	0	0	PANCHOK	对手随机弃掉两张手牌。	Opponent discards two cards at random.		
+330002	邪恶献祭	Evil Sacrifice	法术	Spell	0	0	Jason Nguyen	消灭目标友方一个生物，你抓两张牌。	Destroy target friedly creature, you draw two cards.		
+330003	招魂	Spiritualism	法术	Spell	0	0	KEBIN	将目标生物牌从你的墓地移回手牌。	Return target creature from your graveyard to your hand. 	「最大的不幸并非死亡，而是想死却不能死。」	
+330004	吸魂术	Soul Absorption	法术	Spell	0	0	HOON	对目标生物或玩家造成4点伤害，你获得4点生命。	Deals 4 damage to target creature or play, you gain 4 life.		
+330005	致命虫群	Deadly swarm	法术	Spell	0	0	ERON	所有生物获得-2/-2直到回合结束。	All creatures get -2/-2 until end of turn.		
+330006	黑暗恐惧	Dark Phobia	法术	Spell	0	0	ERON	消灭目标秩序或自然生物。	Destroy target Order or Nature creature.		
+330007	死亡诅咒	Death Curse	法术	Spell	0	0	ERON	所有玩家失去X点生命，X等于场上生物的数量。	Each players lost X life, X is equal the number of creatures on battlefield.		
+330008	邪物寄生	Parasitic Evil 	法术	Spell	0	0	GHARLY	场上每有一个友方的黑暗生物，目标生物便获得+1/+1。	Target creature gets +1/+1 for each friendly Dark crertures.		
+330009	精神扭曲	Mental Distortion	法术	Spell	0	0	J.NERO	对手随机弃掉四张手牌。	Opponent discards four cards at random.		
+330010	死亡召唤	Death Call	法术	Spell	0	0	GILYONG	23&将目标生物从墓地移至你的防线上。	Put taget creature in a graveyard onto your defence-line.	黑暗法师阿尔纳醉心于死灵法术的研究，唤醒并转化无数的尸骸将其变成忠实的奴隶。	
+330011	野心代价	Ambition's Cost	法术	Spell	0	0	KEBIN	抓三张牌并对你造成3点伤害。	Draw three cards and deals 3 damage to you.		
+330012	交换灵魂	Exchange Soul	法术	Spell	0	0	MINARI	交换双方生命值。	Exchange both players life.	就算出卖灵魂，也要找个付得起价钱的人。	
+330013	黑月祈愿	Dark Moon's wish	法术	Spell	0	0	GHARLY	23&随机消灭两个敌方生物，你受到5点伤害。使用后将黑月祈愿洗入你的牌库。	Destroy two enemy creatures at random, deals 5 damage to you.Shuffle Dark Moon's Wish into your library.	那永恒长眠的并非亡者，在奇妙的万古之中即便死亡亦会消逝。	That is not dead which can eternal lie,And with strange aeons even death may die.
+330014	行刑者之鞭	Executioner's Lash	法术	Spell	0	0	PHON	目标生物获得+1/+1，并获得【致命】直到回合结束。	Target creature gets +1/+1,and gain 【Daedly】 until end of turn.	那永恒长眠的并非亡者，在奇妙的万古之中即便死亡亦会消逝。	That is not dead which can eternal lie,And with strange aeons even death may die.
+330015	活尸群	Zombie Group	法术	Spell	0	0	ROH YPUNG HYUN	在你的防线上放置两个行尸衍生物。	Put two Walking Dead tokens onto your defence-line.	那永恒长眠的并非亡者，在奇妙的万古之中即便死亡亦会消逝。	That is not dead which can eternal lie,And with strange aeons even death may die.
+330016	异月重生	Rebirth of Abnormal Moon	法术	Spell	0	0	ROH YPUNG HYUN	每位玩家将其墓地中随机一张生物牌移至其防线上。	Each players puts a creature card from his graveyard at random onto the defence-line.	那永恒长眠的并非亡者，在奇妙的万古之中即便死亡亦会消逝。	That is not dead which can eternal lie,And with strange aeons even death may die.
+340000	闪电箭	Lightning Bolt	法术	Spell	0	0	PtcZ	对目标防线上的生物造成4点伤害。	Deals 4 damage to target creature in defence-line.		
+340001	火焰爆破	Fire Blast	法术	Spell	0	0	Jacko Suen	向对手造成5点伤害。	Deals 5 damage to opponent.		
+340002	烈焰飞弹	Scorching Missile	法术	Spell	0	0	団長！	向敌方任意生物或对手造成3点伤害。	Deals 3 damage to enemy creatures or opponent at random.		
+340003	狂暴术	Frenzy	法术	Spell	0	0	Jacko Suen	目标生物获得【连击】直到回合结束。	Target creature gains 【Double strike】 until end of turn.		
+340004	厄运降临	Coming Doom	法术	Spell	0	0	団長！	对手法力上限减少①。	Opponent lost ① mana limit.		
+340005	陨落	Fall	法术	Spell	0	0	BigDog	对目标生物造成3点伤害，且对手法力上限减少①。	Deals 3 damage to target creature and opponent lost ① mana limit.		
+340006	发狂	Crazy	法术	Spell	0	0	Jacko Suen	目标生物对其左右相邻的生物造成等同其攻击力的伤害。	Target creature deals damage equal its power to adjacent creatures.		
+340007	火雨术	Fire Rain	法术	Spell	0	0	BigDog	对所有生物造成2点伤害。	Deals 2 damage to each creatures.		
+340008	能量风暴	Electrical Storm	法术	Spell	0	0	団長！	对敌方所有生物造成4点伤害。	Deals 4 damage to enemy creatures.		
+340009	火山爆发	Volcanic Explosion	法术	Spell	0	0	Jacko Suen	对所有生物和玩家造成3点伤害。	Deals 3 damage to all creatures and players.		
+340010	怒火升腾	EscalatingViolence	法术	Spell	0	0	IN-HYUK LEE	所有友方生物获得【连击】和【暴击】直到回合结束。	23&All friendly creatures gain 【Double strike】 and 【Crit】 unit end of turn.		
+340011	异界入侵	Otherworld Intrusion	法术	Spell	0	0	KEBIN	【瞬间】\n在前线放置三个鲁莽小恶魔衍生物。	【Instant】\nPut three Reckless Imp tokens in battlefront at onec.		
+340012	恶魔之门	GateoftheDemons	法术	Spell	0	0	BOOTA	你受到7点伤害，从你的牌库中随机选择一张恶魔生物置于你的防线上。	Deals 7 damage to you,put a Demon creature from your library into your defence-line at random.		
+340013	咒语复制	Copy Spell	法术	Spell	0	0	ERON	将对手墓地中的一张法术牌置于你的手牌。	Put a Spell card in the opponent's graveyard on your hand.		
+340014	血月祈愿	Blood Moon's Wish	法术	Spell	0	0	WOO-YOUNG	对随机一个生物或玩家造成2点伤害，效果执行两次。使用后将血月祈愿洗入你的牌库。	Deals 2 damage to a creature or an player at random,the effect is executed twice.\nShuffle Blood Moon's Wish into your library.		
+340015	恶魔之怒	Demonic Wrath	法术	Spell	0	0	IN-HYUK LEE	对目标生物或玩家造成10点伤害。	Deals 10 damage to target creature or play.		
+350000	大自然的馈赠	Gifts of Nature	法术	Spell	0	0	CCF	法力上限增加①。	You mana limit Add ①.		
+350001	熊之力量	Strength of Bear	法术	Spell	0	0	BigDog	目标生物获得+2/+2。	Target creature gets +2/+2.		
+350002	兽群暴动	Stampeding Horde	法术	Spell	0	0	CCF	23&友方所有生物获得+3/+3和【践踏】直到回合结束。	Friendly creatures get +3/+3 and gain 【Trample】 until end of turn.		
+350003	自然循环	Natural Cycle	法术	Spell	0	0	薛博	你的墓地每有一张生物，便抓一张牌。	You draws a card for each creature card in your graveyard.		
+350004	草药治疗	Herbtherapy	法术	Spell	0	0	PtcZ	你获得10点生命。	You gain 10 life.		
+350005	新绿成长	Verdant Growth	法术	Spell	0	0	MINARL	所有友方自然生物获得+1/+2。	All friendly Nature creatures get +1/+2.		
+350006	野性狂怒	Savage Frenzy	法术	Spell	0	0	OSUK2	22&目标生物获得+3/+3。并获得【践踏】、【势不可挡】和【横扫】直到回合结束。	Target creature gets +3/+3.And gain 【Trample】 【Unstoppable】 and 【Sweep】 unit end of turn.		
+350007	飓风	Flurry	法术	Spell	0	0	BOOTA	消灭所有具【飞行】技能的生物。	Destroy all creatures with flying.		
+350008	幻月祈愿	Paraselene's Wish	法术	Spell	0	0	GILYONG	将三张<树精幼苗>置入你的手牌。使用后将幻月祈愿洗入你的牌库。	Create three <Treefolk Seedlings> cards to your hand.Shuffle Paraselene's Wish into your library.		
+350009	复苏	Restoration	法术	Spell	0	0	ERON	【瞬间】\n恢复你的法力。	【Instant】\nRecover your Mana at once.		
+360000	招魂	Spiritualism	衍生	Derived	法术	Spell	KEBIN	将目标生物牌从你的墓地移回手牌。	Return target creature from your graveyard to your hand. 		
+360001	增加100点法力！	Add 100 Mana！	衍生	Derived	闪咒	Flashspell	Jacko Suen	【闪咒】\n你的法力上限增加100点！	You mana limit Add 100.		
+360002	费斯坦洛菲尔的诅咒	Fistanrofer's Cursed	衍生	Derived	法术	Spell	0	费斯坦洛菲尔的诅咒不能献祭。\n在你的回合开始时，如果费斯坦洛菲尔的诅咒在你的手上，对你造成2点伤害。	Fistanrofer's Cursed can't offering.\nAt the begin of your turn, if you hold the card,deals 2 damage to you.		
+360003	加血测试用	Add 999 HP	衍生	Derived	闪咒	Flashspell	0	大家获得999血。	Add each players 999 life.		
+360004	脆弱协议	Fragile Agreement	衍生	Derived	法术	Spell	PANCHOK	你抓一张牌，然后对手获得一张<脆弱协议>。	You draw a card then create a <Treefolk Seedlings> card to opponent's hand.		
+360005	Kill You	Kill You	衍生	Derived	法术	Spell	0	对手受到100点伤害。	对手受到100点伤害。		
+360006	再生	Regeneration	法术	Spell	0	0	BOOTA	【瞬间】\n你获得10点生命，并将你墓地中所有卡牌洗入牌库。使用后将再生洗入你的牌库。	【Instant】\nYou gain 10 life and shuffle your graveyard into your library.\nShuffle Regeneration into your library.	0	0
+360007	幻象增强	Enhance the Illusion	法术	Spell	0	0	RON YOUNG HYUN	目标友方生物获得+1/+0。使用后将治愈之手洗入你的牌库。	Target friendly creature get +1/+0.\nShuffle Enhance the Illusion into your library.	0	0
+410000	紧急增援	First Reinforcements	闪咒	Flashspell	0	0	PtcZ	在你的防线上放置两个帝国新兵衍生物。	Put two Empire Recruit tokens onto your defence-line.		
+410001	短暂休息	Short Rest	闪咒	Flashspell	0	0	朱彤彤	目标生物获得【守护】直到回合结束，你抓一张牌。	Target creature gain 【Guardian】 until end of turn, you draw a card.		
+410002	正义之箭	Arrows of Justice	闪咒	Flashspell	0	0	Jacko Suen	消灭目标攻击力大于或等于4的生物。	Destroy target creature with power 4 or greater.		
+410003	天使祝福	Angel's Blessing	闪咒	Flashspell	0	0	CCF	友方所有生物获得+2/+1直到回合结束。	Friendly creatures get +2/+1 until end of turn.		
+410004	顺势斩	Cleave	闪咒	Flashspell	0	0	Jacko Suen	对前线上所有敌方生物造成2点伤害。	Deals 2 damage to enemy creatures in battlefront.		
+410005	惩戒	Chastise	闪咒	Flashspell	0	0	BigDog	对目标前线上的生物造成5点伤害。	Deals 5 damage to target creature in battlefront.		
+410006	安息日	Sabbath	闪咒	Flashspell	0	0	CCF	所有生物获得【守护】直到回合结束。	All creatures gain 【Guardian】 until end of turn.	精神的白昼，圣灵静憩之处且不受侵扰。	
+410007	筑起堡垒	Building Barricade	闪咒	Flashspell	0	0	Jacko Suen	友方所有生物获得+0/+2直到回合结束。	Friendly creatures get +0/+2 until end of turn.		
+410008	拉多娜的庇护	Ladonna's Aegis	闪咒	Flashspell	0	0	団長！	防止友方生物本回合受到的所有伤害，治疗其受到的所有伤害。	Prevent all damage that would be dealt to friendly creatures this turn, health all damage to them.		
+410009	快速治疗	Flash Heal	闪咒	Flashspell	0	0	POA	治疗目标生物或玩家3点伤害。	Health 3 damage to target creature or play.	如果可以的话，我希望能老死。	
+410010	净化墓穴	Purify the Grave	闪咒	Flashspell	0	0	LEE WOO-YOUNG	【放逐】目标墓地中的一张牌。	【Exile】 target card from a graveyard.	一切不洁之物必须尽早根除！	
+410011	神圣抗力	Divine Resistance	闪咒	Flashspell	0	0	DALYK	防止目标生物本回合受到的所有伤害。	Prevent all damage that would be dealt to target creature this turn.		
+420000	冷却	Cold Down	闪咒	Flashspell	0	0	ERON	目标生物得到-7/-0直到回合结束。	Target creature gets -7/-0 until end of turn.		
+420001	驱散	Disperse	闪咒	Flashspell	0	0	KEBIN	将目标生物及其位置上的领域移回手牌。	Return target creature and domain on the same position to hand.		
+420002	融化	Melting	闪咒	Flashspell	0	0	DALYK	目标生物获得-1/-0。	Target creature gets -1/-0.		
+420003	强制传送	Forced Transfer	闪咒	Flashspell	0	0	DALYK	将目标生物置于其拥有者牌库顶。	Put target creature on top of its owner's library.		
+420004	诡计	Deception	闪咒	Flashspell	0	0	ISHTARIS	将目标玩家牌库顶两张牌置于其墓地，你抓一张牌。	Target player puts the top two cards of his library into graveyard, you draw a card.		
+420005	窃取机密	Stealing Secrets	闪咒	Flashspell	0	0	POA	将对手牌库顶一张牌置于你的手牌。	Puts the top a card of opponent's library into your hand.	我的是我的，你的也是我的。	
+420006	浓雾掩护	Fog Cover	闪咒	Flashspell	0	0	DALYK	【瞬间】\n友方所有生物获得【伪装】直到回合结束。	【Instant】\nFriendls creatures gains 【Camouflage】until end of turn.		
+420007	大风暴	Big Storm	闪咒	Flashspell	0	0	BOOTA	将所有生物和领域移回手牌。	Return all creatures and domain to hand.		
+420008	变形术	Polymorph	闪咒	Flashspell	0	0	MazertYoung	将目标生物变成羊。	Transform target creature into sheep.		
+420009	失效	Negate	闪咒	Flashspell	0	0	ISHTARIS	失效只能在防御阶段中使用。\n反击对手法术区随机一张卡牌。	Negate can only be used in the defensive phase.\nCounter a card in the Spell Area by opponent at random.		
+420010	抹消计划	Erase the Plan	闪咒	Flashspell	0	0	ISHTARIS	抹消计划只能在防御阶段中使用。\n反击对手法术区所有卡牌。	Erase the Plan can only be used in the defensive phase.\nCounter all cards in the Spell Area by opponent.		
+420011	迷途	Stray	闪咒	Flashspell	0	0	ISHTARIS	目标生物获得【迟缓】，并后退至防线。	Target creature gain 【Slowly】 and back to the defence-line.	“你！马上离开教室，到走廊罚站去！”	
+430000	弱化	Weaken	闪咒	Flashspell	0	0	WON-HO	目标生物获得-1/-1，你抓一张牌。	Target creature gets -1/-1, you draw a card.		
+430001	行刺	Assassinate	闪咒	Flashspell	0	0	EEELMONG	消灭目标生物。	Destroy target creature.		
+430002	腐败气息	Corruption Breath	闪咒	Flashspell	0	0	ERON	目标生物获得-2/-2直到回合结束。	Target creature gets -2/-2 until end of turn.		
+430003	吸血鬼之拥	Vampiric Embrace	闪咒	Flashspell	0	0	GHARLY	目标生物获得【吸血】，并获得+2/+0直到回合结束。	Target creature gain 【Suckblood】, and gets +2/+0 until end of turn.		
+430004	死亡之触	Death Touch	闪咒	Flashspell	0	0	WOO-YOUNG	消灭目标力量少于或等于3的生物。	Destroy target creature with power 3 or less.		
+430005	窃尸	Morgue Theft	闪咒	Flashspell	0	0	AN.GILYONG	【放逐】目标墓地中的一张生物牌，在你的防线上放置一个行尸衍生物。	【Exile】 target creature card from a graveyard, put a Walking Dead token onto your defence-line.		
+440000	火箭术	Fire Bolt	闪咒	Flashspell	0	0	PtcZ	对目标生物或玩家造成2点伤害。	Deals 2 damage to target creature or play.		
+440001	野蛮攻击	Savage Assault	闪咒	Flashspell	0	0	泽羊	目标生物得到+3/+0和【先攻】直到回合结束。	Target creature gets +3/+0 and gain 【First strike】 until end of turn.		
+440002	破盾	Broken Shield	闪咒	Flashspell	0	0	Jacko Suen	对目标生物或玩家造成3点伤害。	Deals 3 damage to target creature or play.		
+440003	战争咆哮	Battle Growl	闪咒	Flashspell	0	0	朱彤彤	友方生物得到+1/+0。	Friendly creatures get +1/+0.		
+440004	恶魔的交易	Demon's Bargain	闪咒	Flashspell	0	0	Jacko Suen	弃掉你的手牌，然后抓两张牌。	Discard all the card in your hand,then draw two cards.		
+440005	奇袭	Surprise Attack	闪咒	Flashspell	0	0	薛博	目标生物得到+3/+1。	Target creature gets +3/+1.		
+440006	冲击波	Shockwave	闪咒	Flashspell	0	0	ERON	对目标生物造成4点伤害。	Deals 4 damage to target creature.		
+450000	尼雅娜亚的赐福	NiyaNoah's Bless	闪咒	Flashspell	0	0	団長！	防止目标生物于本回合中受到的所有战斗伤害。你获得6点生命。	Prevent all combat damage that would be dealt to target creature this turn.You gain 6 life.		
+450001	回归自然	Naturalize	闪咒	Flashspell	0	0	BigDog	消灭目标领域。	Destroy target domain.		
+450002	大地之力	Strength of Earth	闪咒	Flashspell	0	0	BigDog	目标生物获得+3/+3直到回合结束。	Target creature gets +3/+3 until end of turn.		
+450003	回收	Reclaim	闪咒	Flashspell	0	0	朱彤彤	从你的墓地将目标自然牌移回手中。	Return target Nature card from your graveyard to your hand.		
+450004	隐蔽伏击	Concealed Ambush	闪咒	Flashspell	0	0	Jacko Suen	目标生物获得【伪装】和【致命】直到回合结束。	Target creatures gains 【Camouflage】 and 【Deadly】 until end of turn.		
+450005	巨化术	Titanic Growth	闪咒	Flashspell	0	0	GILYONG	目标生物获得+7/+7。	Target creature gets +7/+7.		

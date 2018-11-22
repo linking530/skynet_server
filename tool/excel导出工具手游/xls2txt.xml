@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+本文件配置游戏表对应生成txt文件，格式如下：
+<files>
+        <file srcFile = "ItemV1.2.xls" sheet= "Weapon" dstFile = "Weapon.txt" />
+        <file srcFile = "ItemV1.2.xls" sheet= "Gem" dstFile = "Gem.txt"/>
+        .......
+</files>
+-->
+
+<files>
+        <file srcFile = "全牌表.xls" sheet= "装备" dstFile = "commander.txt" />
+        <file srcFile = "全牌表.xls" sheet= "卡牌" dstFile = "cards.txt" />
+        <file srcFile = "技能表.xls" sheet= "技能表" dstFile = "skill.txt" />
+        <file srcFile = "角色初始表.xls" sheet= "起始套牌" dstFile = "basecard.txt" />
+        <file srcFile = "角色初始表.xls" sheet= "基本属性" dstFile = "userInfo.txt" />
+	
+        <file srcFile = "角色初始表.xls" sheet= "经验表" dstFile = "exp.txt" />
+        <file srcFile = "卡牌市场.xls" sheet= "卡牌" dstFile = "market.txt" />	
+		
+        <file srcFile = "关卡套牌.xls" sheet= "玩家套牌" dstFile = "comPlay.txt" />
+        <file srcFile = "关卡套牌.xls" sheet= "电脑套牌" dstFile = "comNpc.txt" />
+			
+        <file srcFile = "地图怪物配置.xls" sheet= "怪物" dstFile = "npc.txt" />
+        <file srcFile = "文字表.xls" sheet= "卡牌" dstFile = "txt.txt" />
+		
+<!--		
+        <file srcFile = "排行榜.xls" sheet= "排行榜" dstFile = "Rank.txt" />	
+        <file srcFile = "奖励配置表.xls" sheet= "卡包配置表" dstFile = "drop.txt" />
+        <file srcFile = "奖励配置表.xls" sheet= "战斗宝箱" dstFile = "battledrop.txt" />
+        <file srcFile = "商城配置表.xls" sheet= "商城" dstFile = "shop.txt" />
+        <file srcFile = "任务配置表.xls" sheet= "任务" dstFile = "Daily.txt" />
+        <file srcFile = "任务配置表.xls" sheet= "成就" dstFile = "chengjiu.txt" />
+        <file srcFile = "任务配置表.xls" sheet= "奖励" dstFile = "reward.txt" />
+        <file srcFile = "任务配置表.xls" sheet= "天梯" dstFile = "tianti.txt" /> 		
+-->		
+</files>

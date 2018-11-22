@@ -1,0 +1,3 @@
+ReviveId	ReviveSceneId	Coordinates_X	Coordinates_Y
+int	int	int	int
+1	101	12	39

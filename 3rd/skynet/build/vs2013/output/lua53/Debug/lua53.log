@@ -1,0 +1,91 @@
+﻿生成启动时间为 2018/4/18 15:01:38。
+     1>项目“E:\skynet-vs2013\build\vs2013\3rd\lua53.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\..\skynet-src" /I..\posix /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D LUA_BUILD_AS_DLL /D _DEBUG /D _WINDOWS /D _USRDLL /D LUA53_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\output\lua53\Debug\\" /Fd"..\output\lua53\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\3rd\lua\lapi.c ..\..\..\3rd\lua\lauxlib.c ..\..\..\3rd\lua\lbaselib.c ..\..\..\3rd\lua\lbitlib.c ..\..\..\3rd\lua\lcode.c ..\..\..\3rd\lua\lcorolib.c ..\..\..\3rd\lua\lctype.c ..\..\..\3rd\lua\ldblib.c ..\..\..\3rd\lua\ldebug.c ..\..\..\3rd\lua\ldo.c ..\..\..\3rd\lua\ldump.c ..\..\..\3rd\lua\lfunc.c ..\..\..\3rd\lua\lgc.c ..\..\..\3rd\lua\linit.c ..\..\..\3rd\lua\liolib.c ..\..\..\3rd\lua\llex.c ..\..\..\3rd\lua\lmathlib.c ..\..\..\3rd\lua\lmem.c ..\..\..\3rd\lua\loadlib.c ..\..\..\3rd\lua\lobject.c ..\..\..\3rd\lua\lopcodes.c ..\..\..\3rd\lua\loslib.c ..\..\..\3rd\lua\lparser.c ..\..\..\3rd\lua\lstate.c ..\..\..\3rd\lua\lstring.c ..\..\..\3rd\lua\lstrlib.c ..\..\..\3rd\lua\ltable.c ..\..\..\3rd\lua\ltablib.c ..\..\..\3rd\lua\ltm.c ..\..\..\3rd\lua\lundump.c ..\..\..\3rd\lua\lutf8lib.c ..\..\..\3rd\lua\lvm.c ..\..\..\3rd\lua\lzio.c
+         lzio.c
+         lvm.c
+         lutf8lib.c
+         lundump.c
+         ltm.c
+         ltablib.c
+         ltable.c
+         lstrlib.c
+         lstring.c
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(23): warning C4013: “__sync_synchronize”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(25): warning C4013: “__sync_add_and_fetch”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(27): warning C4013: “__sync_sub_and_fetch”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(36): warning C4013: “__sync_lock_test_and_set”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\rwlock.h(44): warning C4013: “__sync_lock_release”未定义；假设外部返回 int
+         lstate.c
+         lparser.c
+         loslib.c
+         lopcodes.c
+         lobject.c
+         loadlib.c
+         lmem.c
+         lmathlib.c
+         llex.c
+         liolib.c
+         linit.c
+         正在生成代码...
+         正在编译...
+         lgc.c
+         lfunc.c
+         ldump.c
+         ldo.c
+         ldebug.c
+         ldblib.c
+         lctype.c
+         lcorolib.c
+         lcode.c
+         lbitlib.c
+         lbaselib.c
+         lauxlib.c
+     1>e:\skynet-vs2013\skynet-src\spinlock.h(24): warning C4013: “__sync_lock_test_and_set”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\skynet-src\spinlock.h(34): warning C4013: “__sync_lock_release”未定义；假设外部返回 int
+     1>e:\skynet-vs2013\3rd\lua\lauxlib.c(1121): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\3rd\lua\lauxlib.c(1138): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+         lapi.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\skynet-vs2013\build\vs2013\..\..\lua53.dll" /INCREMENTAL /NOLOGO /LIBPATH:"E:\skynet-vs2013\build\vs2013\\" /LIBPATH:"E:\skynet-vs2013\build\vs2013\..\..\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\skynet-vs2013\build\vs2013\..\..\lua53.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\skynet-vs2013\build\vs2013\..\..\lua53.lib" /MACHINE:X86 /DLL ..\output\lua53\Debug\lapi.obj
+         ..\output\lua53\Debug\lauxlib.obj
+         ..\output\lua53\Debug\lbaselib.obj
+         ..\output\lua53\Debug\lbitlib.obj
+         ..\output\lua53\Debug\lcode.obj
+         ..\output\lua53\Debug\lcorolib.obj
+         ..\output\lua53\Debug\lctype.obj
+         ..\output\lua53\Debug\ldblib.obj
+         ..\output\lua53\Debug\ldebug.obj
+         ..\output\lua53\Debug\ldo.obj
+         ..\output\lua53\Debug\ldump.obj
+         ..\output\lua53\Debug\lfunc.obj
+         ..\output\lua53\Debug\lgc.obj
+         ..\output\lua53\Debug\linit.obj
+         ..\output\lua53\Debug\liolib.obj
+         ..\output\lua53\Debug\llex.obj
+         ..\output\lua53\Debug\lmathlib.obj
+         ..\output\lua53\Debug\lmem.obj
+         ..\output\lua53\Debug\loadlib.obj
+         ..\output\lua53\Debug\lobject.obj
+         ..\output\lua53\Debug\lopcodes.obj
+         ..\output\lua53\Debug\loslib.obj
+         ..\output\lua53\Debug\lparser.obj
+         ..\output\lua53\Debug\lstate.obj
+         ..\output\lua53\Debug\lstring.obj
+         ..\output\lua53\Debug\lstrlib.obj
+         ..\output\lua53\Debug\ltable.obj
+         ..\output\lua53\Debug\ltablib.obj
+         ..\output\lua53\Debug\ltm.obj
+         ..\output\lua53\Debug\lundump.obj
+         ..\output\lua53\Debug\lutf8lib.obj
+         ..\output\lua53\Debug\lvm.obj
+         ..\output\lua53\Debug\lzio.obj
+         "E:\skynet-vs2013\posix.lib"
+            正在创建库 E:\skynet-vs2013\build\vs2013\..\..\lua53.lib 和对象 E:\skynet-vs2013\build\vs2013\..\..\lua53.exp
+         lua53.vcxproj -> E:\skynet-vs2013\build\vs2013\..\..\lua53.dll
+     1>已完成生成项目“E:\skynet-vs2013\build\vs2013\3rd\lua53.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.32

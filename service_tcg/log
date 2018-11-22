@@ -1,0 +1,52 @@
+[:00000001] LAUNCH logger log
+[:00000002] LAUNCH snlua bootstrap
+[:00000003] LAUNCH snlua launcher
+[:00000004] LAUNCH snlua cdummy
+[:00000005] LAUNCH harbor 0 4
+[:00000006] LAUNCH snlua datacenterd
+[:00000007] LAUNCH snlua service_mgr
+[:00000008] LAUNCH snlua main
+[:00000008] N|haha
+[:00000008] N|user 1 has enter map abc
+[:00000009] LAUNCH snlua debug_console 9333
+[:00000009] Start debug console at 127.0.0.1:9333
+[:0000000a] LAUNCH snlua protod
+[:0000000b] LAUNCH snlua database
+[:0000000c] LAUNCH snlua loginserver
+[:0000000c] N|loginserver CMD.open conf:
+[:0000000d] LAUNCH snlua loginslave
+[:0000000d] N|loginslave CMD.init m:12, id:1, conf:table: 0x7f09901fd6c0
+[:0000000d] N|slave host:table: 0x7f09901fdb30
+[:0000000e] LAUNCH snlua loginslave
+[:0000000e] N|loginslave CMD.init m:12, id:2, conf:table: 0x7f0990120840
+[:0000000e] N|slave host:table: 0x7f09902d1600
+[:0000000f] LAUNCH snlua loginslave
+[:0000000f] N|loginslave CMD.init m:12, id:3, conf:table: 0x7f09903a4500
+[:0000000f] N|slave host:table: 0x7f09903a5020
+[:00000010] LAUNCH snlua loginslave
+[:00000010] N|loginslave CMD.init m:12, id:4, conf:table: 0x7f0990477fb0
+[:00000010] N|slave host:table: 0x7f0990478b50
+[:00000011] LAUNCH snlua loginslave
+[:00000011] N|loginslave CMD.init m:12, id:5, conf:table: 0x7f099054bad0
+[:00000011] N|slave host:table: 0x7f099054c670
+[:00000012] LAUNCH snlua loginslave
+[:00000012] N|loginslave CMD.init m:12, id:6, conf:table: 0x7f09902d0a30
+[:00000012] N|slave host:table: 0x7f09906201d0
+[:00000013] LAUNCH snlua loginslave
+[:00000013] N|loginslave CMD.init m:12, id:7, conf:table: 0x7f09906f3130
+[:00000013] N|slave host:table: 0x7f09906f3cd0
+[:00000014] LAUNCH snlua loginslave
+[:00000014] N|loginslave CMD.init m:12, id:8, conf:table: 0x7f09907c6c40
+[:00000014] N|slave host:table: 0x7f098011d300
+[:0000000c] N|listen on 0.0.0.0:9777
+[:00000015] LAUNCH snlua gamed 12
+[:00000015] N|listen on 0.0.0.0:9555
+[:00000015] N|gamed gamed.open config:table: 0x7f0990899c80
+[:00000016] LAUNCH snlua agent 21
+[:00000017] LAUNCH snlua sharedatad
+[:00000018] LAUNCH snlua agent 21
+[:00000019] LAUNCH snlua gdd
+[:0000001a] LAUNCH snlua world
+[:0000001b] LAUNCH snlua map 26
+[:0000001c] LAUNCH snlua map 26
+[:00000002] KILL self

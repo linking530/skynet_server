@@ -1,0 +1,16 @@
+﻿生成启动时间为 2018/4/18 15:01:49。
+     1>项目“E:\skynet-vs2013\build\vs2013\service\snlua.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\3rd\lua /I"..\..\..\skynet-src" /I..\posix /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D LUA_BUILD_AS_DLL /D LUA_LIB /D NOUSE_JEMALLOC /D _DEBUG /D _WINDOWS /D _USRDLL /D LUA53_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\output\snlua\Debug\\" /Fd"..\output\snlua\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\service-src\service_snlua.c"
+         service_snlua.c
+     1>e:\skynet-vs2013\service-src\service_snlua.c(121): warning C4244: “初始化”: 从“lua_Integer”转换到“size_t”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\skynet-vs2013\build\vs2013\..\..\cservice\snlua.so" /INCREMENTAL /NOLOGO /LIBPATH:"E:\skynet-vs2013\build\vs2013\\" /LIBPATH:"E:\skynet-vs2013\build\vs2013\..\..\\" skynet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"E:\skynet-vs2013\build\vs2013\service\snlua.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\skynet-vs2013\build\vs2013\..\..\cservice\snlua.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\skynet-vs2013\build\vs2013\..\..\cservice\snlua.lib" /MACHINE:X86 /DLL ..\output\snlua\Debug\service_snlua.obj
+         "E:\skynet-vs2013\lua53.lib"
+            正在创建库 E:\skynet-vs2013\build\vs2013\..\..\cservice\snlua.lib 和对象 E:\skynet-vs2013\build\vs2013\..\..\cservice\snlua.exp
+         snlua.vcxproj -> E:\skynet-vs2013\build\vs2013\..\..\cservice\snlua.so
+     1>已完成生成项目“E:\skynet-vs2013\build\vs2013\service\snlua.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.19

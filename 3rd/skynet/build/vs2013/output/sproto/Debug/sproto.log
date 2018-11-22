@@ -1,0 +1,37 @@
+﻿生成启动时间为 2018/4/18 15:01:43。
+     1>项目“E:\skynet-vs2013\build\vs2013\lualib\sproto.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\3rd\lua /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D LUA_BUILD_AS_DLL /D _DEBUG /D _WINDOWS /D _USRDLL /D LUA53_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\output\sproto\Debug\\" /Fd"..\output\sproto\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\lualib-src\sproto\lsproto.c" "..\..\..\lualib-src\sproto\sproto.c"
+         sproto.c
+     1>e:\skynet-vs2013\lualib-src\sproto\sproto.c(102): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\sproto.c(151): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\sproto.c(1035): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\sproto.c(1080): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\sproto.c(1090): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\sproto.c(1105): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\sproto.c(1163): warning C4018: “<”: 有符号/无符号不匹配
+         lsproto.c
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(225): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(249): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(327): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(416): warning C4244: “初始化”: 从“uint64_t”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(512): warning C4244: “=”: 从“lua_Integer”转换到“size_t”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(579): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(580): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(584): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(597): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(632): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(674): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\sproto\lsproto.c(685): warning C4244: “初始化”: 从“lua_Integer”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\sproto.so" /INCREMENTAL /NOLOGO /LIBPATH:"E:\skynet-vs2013\build\vs2013\\" /LIBPATH:"E:\skynet-vs2013\build\vs2013\..\..\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"E:\skynet-vs2013\build\vs2013\lualib\sproto.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\sproto.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\sproto.lib" /MACHINE:X86 /DLL ..\output\sproto\Debug\lsproto.obj
+         ..\output\sproto\Debug\sproto.obj
+         "E:\skynet-vs2013\lua53.lib"
+            正在创建库 E:\skynet-vs2013\build\vs2013\..\..\luaclib\sproto.lib 和对象 E:\skynet-vs2013\build\vs2013\..\..\luaclib\sproto.exp
+         sproto.vcxproj -> E:\skynet-vs2013\build\vs2013\..\..\luaclib\sproto.so
+     1>已完成生成项目“E:\skynet-vs2013\build\vs2013\lualib\sproto.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.50

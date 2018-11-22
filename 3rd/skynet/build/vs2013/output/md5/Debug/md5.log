@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/4/18 15:01:42。
+     1>项目“E:\skynet-vs2013\build\vs2013\3rd\md5.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\3rd\lua /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D LUA_BUILD_AS_DLL /D _DEBUG /D _WINDOWS /D _USRDLL /D LUA53_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\output\md5\Debug\\" /Fd"..\output\md5\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\3rd\lua-md5\compat-5.2.c" "..\..\..\3rd\lua-md5\md5.c" "..\..\..\3rd\lua-md5\md5lib.c"
+         md5lib.c
+     1>e:\skynet-vs2013\3rd\lua-md5\compat-5.2.h(15): warning C4273: “luaL_setfuncs”: dll 链接不一致
+                 e:\skynet-vs2013\3rd\lua\lauxlib.h(99) : 参见“luaL_setfuncs”的前一个定义
+         md5.c
+         compat-5.2.c
+     1>e:\skynet-vs2013\3rd\lua-md5\compat-5.2.h(15): warning C4273: “luaL_setfuncs”: dll 链接不一致
+                 e:\skynet-vs2013\3rd\lua\lauxlib.h(99) : 参见“luaL_setfuncs”的前一个定义
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\md5.so" /INCREMENTAL /NOLOGO /LIBPATH:"E:\skynet-vs2013\build\vs2013\\" /LIBPATH:"E:\skynet-vs2013\build\vs2013\..\..\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"E:\skynet-vs2013\build\vs2013\3rd\md5.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\md5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\skynet-vs2013\build\vs2013\..\..\luaclib\md5.lib" /MACHINE:X86 /DLL "..\output\md5\Debug\compat-5.2.obj"
+         ..\output\md5\Debug\md5.obj
+         ..\output\md5\Debug\md5lib.obj
+         "E:\skynet-vs2013\lua53.lib"
+            正在创建库 E:\skynet-vs2013\build\vs2013\..\..\luaclib\md5.lib 和对象 E:\skynet-vs2013\build\vs2013\..\..\luaclib\md5.exp
+         md5.vcxproj -> E:\skynet-vs2013\build\vs2013\..\..\luaclib\md5.so
+     1>已完成生成项目“E:\skynet-vs2013\build\vs2013\3rd\md5.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.80

@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/4/18 15:01:47。
+     1>项目“E:\skynet-vs2013\build\vs2013\service\harbor.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\3rd\lua /I"..\..\..\skynet-src" /I..\posix /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D LUA_BUILD_AS_DLL /D LUA_LIB /D NOUSE_JEMALLOC /D _DEBUG /D _WINDOWS /D _USRDLL /D LUA53_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\output\harbor\Debug\\" /Fd"..\output\harbor\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\service-src\service_harbor.c"
+         service_harbor.c
+     1>e:\skynet-vs2013\service-src\service_harbor.c(246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>e:\skynet-vs2013\service-src\service_harbor.c(618): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>e:\skynet-vs2013\service-src\service_harbor.c(722): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\skynet-vs2013\build\vs2013\..\..\cservice\harbor.so" /INCREMENTAL /NOLOGO /LIBPATH:"E:\skynet-vs2013\build\vs2013\\" /LIBPATH:"E:\skynet-vs2013\build\vs2013\..\..\\" skynet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"E:\skynet-vs2013\build\vs2013\service\harbor.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\skynet-vs2013\build\vs2013\..\..\cservice\harbor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\skynet-vs2013\build\vs2013\..\..\cservice\harbor.lib" /MACHINE:X86 /DLL ..\output\harbor\Debug\service_harbor.obj
+            正在创建库 E:\skynet-vs2013\build\vs2013\..\..\cservice\harbor.lib 和对象 E:\skynet-vs2013\build\vs2013\..\..\cservice\harbor.exp
+         harbor.vcxproj -> E:\skynet-vs2013\build\vs2013\..\..\cservice\harbor.so
+     1>已完成生成项目“E:\skynet-vs2013\build\vs2013\service\harbor.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.59

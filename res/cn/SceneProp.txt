@@ -1,0 +1,3 @@
+SceneId	SceneName	Scene_type	Tickets	ReviveId_1	ReviveId_2	loading	relive	relive1	colour	monster_text	min_lv	memory_use	XP_ctrl
+int	int	int	string	int	int	int	int	int	int	int	int	int	int
+25	290014	2	0	1	0	0	0	0	0	0	0	0	0

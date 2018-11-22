@@ -1,0 +1,161 @@
+﻿生成启动时间为 2018/4/18 15:01:51。
+     1>项目“E:\skynet-vs2013\build\vs2013\lualib\mbedtls.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\3rd\lua /I..\..\..\3rd\mbedtls\include /I"..\..\..\skynet-src" /I"..\..\..\lualib-src\mbedtls" /I..\posix /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D LUA_BUILD_AS_DLL /D _DEBUG /D _WINDOWS /D _USRDLL /D LUA53_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\output\mbedtls\Debug\\" /Fd"..\output\mbedtls\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\3rd\mbedtls\library\aes.c ..\..\..\3rd\mbedtls\library\aesni.c ..\..\..\3rd\mbedtls\library\arc4.c ..\..\..\3rd\mbedtls\library\asn1parse.c ..\..\..\3rd\mbedtls\library\asn1write.c ..\..\..\3rd\mbedtls\library\base64.c ..\..\..\3rd\mbedtls\library\bignum.c ..\..\..\3rd\mbedtls\library\blowfish.c ..\..\..\3rd\mbedtls\library\camellia.c ..\..\..\3rd\mbedtls\library\ccm.c ..\..\..\3rd\mbedtls\library\certs.c ..\..\..\3rd\mbedtls\library\cipher.c ..\..\..\3rd\mbedtls\library\cipher_wrap.c ..\..\..\3rd\mbedtls\library\ctr_drbg.c ..\..\..\3rd\mbedtls\library\debug.c ..\..\..\3rd\mbedtls\library\des.c ..\..\..\3rd\mbedtls\library\dhm.c ..\..\..\3rd\mbedtls\library\ecdh.c ..\..\..\3rd\mbedtls\library\ecdsa.c ..\..\..\3rd\mbedtls\library\ecjpake.c ..\..\..\3rd\mbedtls\library\ecp.c ..\..\..\3rd\mbedtls\library\ecp_curves.c ..\..\..\3rd\mbedtls\library\entropy.c ..\..\..\3rd\mbedtls\library\entropy_poll.c ..\..\..\3rd\mbedtls\library\error.c ..\..\..\3rd\mbedtls\library\gcm.c ..\..\..\3rd\mbedtls\library\havege.c ..\..\..\3rd\mbedtls\library\hmac_drbg.c ..\..\..\3rd\mbedtls\library\md.c ..\..\..\3rd\mbedtls\library\md2.c ..\..\..\3rd\mbedtls\library\md4.c ..\..\..\3rd\mbedtls\library\md5.c ..\..\..\3rd\mbedtls\library\md_wrap.c ..\..\..\3rd\mbedtls\library\memory_buffer_alloc.c ..\..\..\3rd\mbedtls\library\net.c ..\..\..\3rd\mbedtls\library\oid.c ..\..\..\3rd\mbedtls\library\padlock.c ..\..\..\3rd\mbedtls\library\pem.c ..\..\..\3rd\mbedtls\library\pk.c ..\..\..\3rd\mbedtls\library\pkcs11.c ..\..\..\3rd\mbedtls\library\pkcs12.c ..\..\..\3rd\mbedtls\library\pkcs5.c ..\..\..\3rd\mbedtls\library\pkparse.c ..\..\..\3rd\mbedtls\library\pkwrite.c ..\..\..\3rd\mbedtls\library\pk_wrap.c ..\..\..\3rd\mbedtls\library\platform.c ..\..\..\3rd\mbedtls\library\ripemd160.c ..\..\..\3rd\mbedtls\library\rsa.c ..\..\..\3rd\mbedtls\library\sha1.c ..\..\..\3rd\mbedtls\library\sha256.c ..\..\..\3rd\mbedtls\library\sha512.c ..\..\..\3rd\mbedtls\library\ssl_cache.c ..\..\..\3rd\mbedtls\library\ssl_ciphersuites.c ..\..\..\3rd\mbedtls\library\ssl_cli.c ..\..\..\3rd\mbedtls\library\ssl_cookie.c ..\..\..\3rd\mbedtls\library\ssl_srv.c ..\..\..\3rd\mbedtls\library\ssl_ticket.c ..\..\..\3rd\mbedtls\library\ssl_tls.c ..\..\..\3rd\mbedtls\library\threading.c ..\..\..\3rd\mbedtls\library\timing.c ..\..\..\3rd\mbedtls\library\version.c ..\..\..\3rd\mbedtls\library\version_features.c ..\..\..\3rd\mbedtls\library\x509.c ..\..\..\3rd\mbedtls\library\x509write_crt.c ..\..\..\3rd\mbedtls\library\x509write_csr.c ..\..\..\3rd\mbedtls\library\x509_create.c ..\..\..\3rd\mbedtls\library\x509_crl.c ..\..\..\3rd\mbedtls\library\x509_crt.c ..\..\..\3rd\mbedtls\library\x509_csr.c ..\..\..\3rd\mbedtls\library\xtea.c "..\..\..\lualib-src\mbedtls\lua-buffer.c" "..\..\..\lualib-src\mbedtls\lua-mbedtls.c"
+         lua-mbedtls.c
+         lua-buffer.c
+     1>e:\skynet-vs2013\lualib-src\mbedtls\lua-buffer.c(33): warning C4244: “初始化”: 从“lua_Number”转换到“size_t”，可能丢失数据
+     1>e:\skynet-vs2013\lualib-src\mbedtls\lua-buffer.c(64): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         xtea.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\xtea.c”: No such file or directory
+         x509_csr.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\x509_csr.c”: No such file or directory
+         x509_crt.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\x509_crt.c”: No such file or directory
+         x509_crl.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\x509_crl.c”: No such file or directory
+         x509_create.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\x509_create.c”: No such file or directory
+         x509write_csr.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\x509write_csr.c”: No such file or directory
+         x509write_crt.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\x509write_crt.c”: No such file or directory
+         x509.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\x509.c”: No such file or directory
+         version_features.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\version_features.c”: No such file or directory
+         version.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\version.c”: No such file or directory
+         timing.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\timing.c”: No such file or directory
+         threading.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\threading.c”: No such file or directory
+         ssl_tls.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ssl_tls.c”: No such file or directory
+         ssl_ticket.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ssl_ticket.c”: No such file or directory
+         ssl_srv.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ssl_srv.c”: No such file or directory
+         ssl_cookie.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ssl_cookie.c”: No such file or directory
+         ssl_cli.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ssl_cli.c”: No such file or directory
+         ssl_ciphersuites.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ssl_ciphersuites.c”: No such file or directory
+         正在生成代码...
+         正在编译...
+         ssl_cache.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ssl_cache.c”: No such file or directory
+         sha512.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\sha512.c”: No such file or directory
+         sha256.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\sha256.c”: No such file or directory
+         sha1.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\sha1.c”: No such file or directory
+         rsa.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\rsa.c”: No such file or directory
+         ripemd160.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ripemd160.c”: No such file or directory
+         platform.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\platform.c”: No such file or directory
+         pk_wrap.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\pk_wrap.c”: No such file or directory
+         pkwrite.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\pkwrite.c”: No such file or directory
+         pkparse.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\pkparse.c”: No such file or directory
+         pkcs5.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\pkcs5.c”: No such file or directory
+         pkcs12.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\pkcs12.c”: No such file or directory
+         pkcs11.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\pkcs11.c”: No such file or directory
+         pk.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\pk.c”: No such file or directory
+         pem.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\pem.c”: No such file or directory
+         padlock.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\padlock.c”: No such file or directory
+         oid.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\oid.c”: No such file or directory
+         net.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\net.c”: No such file or directory
+         memory_buffer_alloc.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\memory_buffer_alloc.c”: No such file or directory
+         md_wrap.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\md_wrap.c”: No such file or directory
+         正在生成代码...
+         正在编译...
+         md5.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\md5.c”: No such file or directory
+         md4.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\md4.c”: No such file or directory
+         md2.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\md2.c”: No such file or directory
+         md.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\md.c”: No such file or directory
+         hmac_drbg.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\hmac_drbg.c”: No such file or directory
+         havege.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\havege.c”: No such file or directory
+         gcm.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\gcm.c”: No such file or directory
+         error.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\error.c”: No such file or directory
+         entropy_poll.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\entropy_poll.c”: No such file or directory
+         entropy.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\entropy.c”: No such file or directory
+         ecp_curves.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ecp_curves.c”: No such file or directory
+         ecp.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ecp.c”: No such file or directory
+         ecjpake.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ecjpake.c”: No such file or directory
+         ecdsa.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ecdsa.c”: No such file or directory
+         ecdh.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ecdh.c”: No such file or directory
+         dhm.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\dhm.c”: No such file or directory
+         des.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\des.c”: No such file or directory
+         debug.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\debug.c”: No such file or directory
+         ctr_drbg.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ctr_drbg.c”: No such file or directory
+         cipher_wrap.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\cipher_wrap.c”: No such file or directory
+         正在生成代码...
+         正在编译...
+         cipher.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\cipher.c”: No such file or directory
+         certs.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\certs.c”: No such file or directory
+         ccm.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\ccm.c”: No such file or directory
+         camellia.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\camellia.c”: No such file or directory
+         blowfish.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\blowfish.c”: No such file or directory
+         bignum.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\bignum.c”: No such file or directory
+         base64.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\base64.c”: No such file or directory
+         asn1write.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\asn1write.c”: No such file or directory
+         asn1parse.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\asn1parse.c”: No such file or directory
+         arc4.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\arc4.c”: No such file or directory
+         aesni.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\aesni.c”: No such file or directory
+         aes.c
+     1>c1 : fatal error C1083: 无法打开源文件: “..\..\..\3rd\mbedtls\library\aes.c”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\skynet-vs2013\build\vs2013\lualib\mbedtls.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.27

@@ -1,0 +1,3 @@
+money	exp	level	feats	gem	head	card
+int	int	int	int	int	int	string
+10000	0	1	1000	1000	1	15
